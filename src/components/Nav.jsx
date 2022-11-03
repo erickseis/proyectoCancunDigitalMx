@@ -30,8 +30,6 @@ const Nav = () => {
           <i className='fa-regular fa-moon'></i>
         </a>
       </div>
-
-      {/* <Link to='/Conacto'><i className='fa-regular fa-moon'></i></Link> */}
     </nav>
   );
 };
