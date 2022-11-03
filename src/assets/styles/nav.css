@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #84b6f4;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.212);
+  box-shadow: 5px 5px 5px 5px solid rgb(0, 0, 0);
+  opacity: 80%;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding-left: 5rem;
+}
+.flexNav {
+  display: flex;
+}
+.navbarList {
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 20rem;
+  padding-left: 10rem;
+}
+
+.navText {
+  text-decoration: none;
+  color: white;
+}
+nav img {
+  width: 100px;
+}
