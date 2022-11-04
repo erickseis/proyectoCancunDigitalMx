@@ -130,13 +130,29 @@ h2 {
     background-position-x: 1000px;
   }
 }
-
-.description-about {
+.text-desing {
   text-align: justify;
   padding-left: 2rem;
   padding-right: 2rem;
-  margin-top: 15rem;
+  margin-top: 2rem;
 }
+.text-desing h1 {
+  border-bottom: 3px solid #52a7e0;
+  font-size: 31px;
+  font-family: Arvo;
+}
+
+.btn-view-more,
+.btn-view-more a {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 20px 20px;
+  background-color: #09c3a1;
+  text-decoration: none;
+  color: white;
+}
+
 .description-about h1 {
   text-align: center;
 }

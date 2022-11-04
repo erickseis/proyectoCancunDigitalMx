@@ -46,7 +46,17 @@ const Home = () => {
         <img className='img-home img2' src={img3} alt='' />
       </div>
       <section>
-        <article className='description-about'>
+        <article className='text-desing'>
+          <div>
+            <i
+              style={{
+                color: '#09c3a1',
+                fontSize: '40px',
+                marginBottom: '1rem',
+              }}
+              class='fa-solid fa-heart'
+            ></i>
+          </div>
           <h1 id='aboutUs'>NOSOTROS</h1>
           <br />
           <br />
@@ -63,12 +73,12 @@ const Home = () => {
             placeat adipisci perspiciatis!ç
           </p>
           <br />
-          <button>
+          <button className='btn-view-more'>
             <Link to='/about'>Ver Más</Link>
           </button>
         </article>
 
-        <article className=''>
+        <article className='text-desing'>
           <h1 id='aboutUs'>NUESTRAS OFICINAS </h1>
           <br />
           <br />
@@ -86,7 +96,7 @@ const Home = () => {
           <br />
         </article>
 
-        <article className=''>
+        <article className='text-desing'>
           <h1 id='aboutUs'>LO QUE HACEMOS</h1>
           <br />
           <br />
@@ -120,7 +130,7 @@ const Home = () => {
           <br />
         </article>
 
-        <article className=''>
+        <article className='text-desing'>
           <h1 id='aboutUs'>CASOS DE ÉXITO </h1>
           <br />
           <br />
@@ -135,11 +145,11 @@ const Home = () => {
             molestias nobis nisi dolorum.
           </p>
           <br />
-          <button>
+          <button className='btn-view-more'>
             <i className='fa-solid fa-circle-plus'></i>
           </button>
         </article>
-        <article className=''>
+        <article className='text-desing'>
           <h1 id='aboutUs'>CASOS DE ÉXITO </h1>
           <br />
           <br />
@@ -154,11 +164,11 @@ const Home = () => {
             molestias nobis nisi dolorum.
           </p>
           <br />
-          <button>
-            <i className='fa-solid fa-circle-plus'></i>
+          <button className='btn-view-more'>
+            <i className='fa-solid fa-circle-plus '></i>
           </button>
         </article>
-        <article className=''>
+        <article className='text-desing'>
           <h1 id='aboutUs'>CASOS DE ÉXITO </h1>
           <br />
           <br />
@@ -173,15 +183,12 @@ const Home = () => {
             molestias nobis nisi dolorum.
           </p>
           <br />
-          <button>
-            <i className='fa-solid fa-circle-plus'></i>
-          </button>
+          <div className='view-more '>
+            <button className='btn-view-more'>Ver Todos</button>
+          </div>
         </article>
-        <div className='view-more'>
-          <button>Ver Todos</button>
-        </div>
 
-        <article>
+        <article className='text-desing'>
           <div>
             <h1>NUESTROS CLIENTES</h1>
             <p>
@@ -200,14 +207,14 @@ const Home = () => {
 
           <br />
           <span>logo empresa...</span>
-          <div className='view-more'>
-            <button>Ver Todos</button>
+          <div>
+            <button className='btn-view-more'>Ver Todos</button>
           </div>
         </article>
       </section>
       <br />
       <section>
-        <article>
+        <article className='text-desing'>
           <h1>ÚLTIMAS NOVEDADES</h1>
           <img
             style={{ width: '200px' }}
@@ -233,7 +240,7 @@ const Home = () => {
             alt=''
           />
         </article>
-        <article>
+        <article className='text-desing'>
           <div>
             <h1>OTRAS NOVEDADES</h1>
           </div>
