@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import img from '../assets/images/logo.gif';
-
 import '../assets/styles/nav.css';
+import BurgerBtn from './BurgerBtn';
 
 const Nav = () => {
+  const [clicked, setClicked] = useState(false);
+  const handleClick = () => {
+    setClicked(!clicked); //true -> false - false->true
+  };
   return (
-    <nav className='navbar flexNav'>
-      <div>
+    <div className='navbar flexNav'>
+      <div className='icon-cancun'>
         <img src={img} alt='' />
       </div>
-      <div className='navbarList flexNav'>
+      <div className={`navbarList ${clicked ? 'active' : ''} flexNav`}>
         <Link className='navText' to='/'>
           INICIO
         </Link>
@@ -30,7 +34,11 @@ const Nav = () => {
           <i className='fa-regular fa-moon'></i>
         </a>
       </div>
-    </nav>
+      <div className='burguer'>
+        <BurgerBtn clicked={clicked} handleClick={handleClick} />
+      </div>
+      <div className={`bgDiv ${clicked ? 'active' : ''} `} />
+    </div>
   );
 };
 

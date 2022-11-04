@@ -21,15 +21,15 @@ const Home = () => {
             <h2>DIGITAL</h2>
           </div>
           <br />
-          <div className='service-about'>
-            <button className='btn btn-service'>
-              <a href=''>Servicios</a>
-            </button>
-            <button className='btn btn-about'>
-              <a href='#aboutUs'>Nosotros</a>
-            </button>
-          </div>
         </div>
+      </div>
+      <div className='service-about'>
+        <button className='btn btn-service'>
+          <a href=''>Servicios</a>
+        </button>
+        <button className='btn btn-about'>
+          <a href='#aboutUs'>Nosotros</a>
+        </button>
       </div>
       <section>
         <article className='description-about'>
