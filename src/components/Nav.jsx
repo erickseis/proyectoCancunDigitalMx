@@ -15,22 +15,22 @@ const Nav = () => {
         <img src={img} alt='' />
       </div>
       <div className={`navbarList ${clicked ? 'active' : ''} flexNav`}>
-        <Link className='navText' to='/'>
+        <Link onClick={handleClick} className='navText' to='/'>
           INICIO
         </Link>
-        <Link className='navText' to='/about'>
+        <Link onClick={handleClick} className='navText' to='/about'>
           NOSOTROS
         </Link>
-        <Link className='navText' to='/services'>
+        <Link onClick={handleClick} className='navText' to='/services'>
           SERVICIOS
         </Link>
-        <Link className='navText' to='/blog'>
+        <Link onClick={handleClick} className='navText' to='/blog'>
           BLOG
         </Link>
-        <Link className='navText' to='/team'>
+        <Link onClick={handleClick} className='navText' to='/team'>
           EQUIPO
         </Link>
-        <a className='navText' href=''>
+        <a onClick={handleClick} className='navText' href=''>
           <i className='fa-regular fa-moon'></i>
         </a>
       </div>
