@@ -24,20 +24,18 @@ const Home = () => {
           </div>
           <br />
         </div>
-      </div>
-      <div className='service-about'>
-        <button className='btn btn-service'>
-          <a href=''>
-            {' '}
-            <strong>Servicios</strong>{' '}
-          </a>
-        </button>
-        <button className='btn btn-about'>
-          <a href='#aboutUs'>
-            {' '}
-            <strong>Nosotros </strong>{' '}
-          </a>
-        </button>
+        <div className='service-about'>
+          <button className='btn btn-service'>
+            <a href=''>
+              <strong>Servicios</strong>
+            </a>
+          </button>
+          <button className='btn btn-about'>
+            <a href='#aboutUs'>
+              <strong>Nosotros </strong>
+            </a>
+          </button>
+        </div>
       </div>
 
       <div className='img-container'>

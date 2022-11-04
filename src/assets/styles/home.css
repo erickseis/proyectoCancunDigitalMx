@@ -4,7 +4,7 @@
   height: 70vh;
   background-color: #52a7e0;
   overflow: hidden;
-  z-index: -4;
+  /* z-index: -4; */
 }
 
 .header {
@@ -17,9 +17,9 @@
 .service-about {
   display: flex;
   justify-content: center;
-  margin-top: -10rem;
+  margin-top: 7rem;
   margin-bottom: 10rem;
-  gap: 2rem;
+  gap: 3rem;
 }
 .title h1,
 h2 {
@@ -174,10 +174,6 @@ h2 {
 
 .description-about h1 {
   text-align: center;
-}
-
-.what-we-do {
-  /* margin-left: 1rem; */
 }
 
 @media (min-width: 1000px) {
