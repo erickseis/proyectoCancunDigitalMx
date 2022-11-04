@@ -47,86 +47,116 @@ const Home = () => {
       </div>
       <section>
         <article className='text-desing'>
-          <div>
-            <i
-              style={{
-                color: '#09c3a1',
-                fontSize: '40px',
-                marginBottom: '1rem',
-              }}
-              class='fa-solid fa-heart'
-            ></i>
+          <div className='container-aboutus'>
+            <div>
+              <i
+                style={{
+                  color: '#09c3a1',
+                  fontSize: '40px',
+                  marginBottom: '1rem',
+                }}
+                class='fa-solid fa-heart'
+              ></i>
+            </div>
+            <h1 id='aboutUs'>SOBRE NOSOTROS</h1>
+            <br />
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab
+              a, explicabo corrupti repudiandae atque consectetur reprehenderit
+              ad molestias nobis nisi dolorum voluptates enim aperiam animi quos
+              placeat adipisci perspiciatis!ç
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab
+              a, explicabo corrupti repudiandae atque consectetur reprehenderit
+              ad molestias nobis nisi dolorum voluptates enim aperiam animi quos
+              placeat adipisci perspiciatis!ç
+            </p>
+            <br />
+            <button className='btn-view-more'>
+              <Link to='/about'>Ver Más</Link>
+            </button>
           </div>
-          <h1 id='aboutUs'>NOSOTROS</h1>
-          <br />
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab a,
-            explicabo corrupti repudiandae atque consectetur reprehenderit ad
-            molestias nobis nisi dolorum voluptates enim aperiam animi quos
-            placeat adipisci perspiciatis!ç
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab a,
-            explicabo corrupti repudiandae atque consectetur reprehenderit ad
-            molestias nobis nisi dolorum voluptates enim aperiam animi quos
-            placeat adipisci perspiciatis!ç
-          </p>
-          <br />
-          <button className='btn-view-more'>
-            <Link to='/about'>Ver Más</Link>
-          </button>
         </article>
 
-        <article className='text-desing'>
-          <h1 id='aboutUs'>NUESTRAS OFICINAS </h1>
-          <br />
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab a,
-            explicabo corrupti repudiandae atque consectetur reprehenderit ad
-            molestias nobis nisi dolorum voluptates enim aperiam animi quos
-            placeat adipisci perspiciatis!ç
-          </p>
-          <img
-            style={{ width: '200px' }}
-            src='https://www.soul.com.uy/img/mapa.png'
-            alt=''
-          />
+        <article className='container-office-us'>
+          <div className='text-desing office-us'>
+            <h1 id='aboutUs'>NUESTRAS OFICINAS </h1>
+            <br />
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab
+              a, explicabo corrupti repudiandae atque consectetur reprehenderit
+              ad molestias nobis nisi dolorum voluptates enim aperiam animi quos
+              placeat adipisci perspiciatis!ç
+            </p>
+            <img
+              // style={{ width: '200px' }}
+              src='https://www.soul.com.uy/img/mapa.png'
+              alt=''
+            />
+          </div>
           <br />
         </article>
 
-        <article className='text-desing'>
-          <h1 id='aboutUs'>LO QUE HACEMOS</h1>
-          <br />
-          <br />
-          <q>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab a,
-          </q>
-          <div className='card'>
-            .
-            <img
-              style={{ width: '100px' }}
-              src='https://www.soul.com.uy/img/ser_perfo.png'
-              alt=''
-            />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              voluptate at nobis perferendis reiciendis.
-            </p>
+        <article className='text-desing container-office-us'>
+          <div className='what-we-do'>
+            <h1 id='aboutUs'>LO QUE HACEMOS</h1>
+            <br />
+            <br />
+            <q>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab
+              a,
+            </q>
           </div>
-          <div className='card'>
-            .
-            <img
-              style={{ width: '100px' }}
-              src='https://www.soul.com.uy/img/ser_redes.png'
-              alt=''
-            />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              voluptate at nobis perferendis reiciendis.
-            </p>
+          <div className='container-card'>
+            <div className='card'>
+              <img
+                style={{ width: '100px' }}
+                src='https://www.soul.com.uy/img/ser_perfo.png'
+                alt=''
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                voluptate at nobis perferendis reiciendis.
+              </p>
+            </div>
+            <div className='card'>
+              <img
+                style={{ width: '100px' }}
+                src='https://www.soul.com.uy/img/ser_perfo.png'
+                alt=''
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                voluptate at nobis perferendis reiciendis.
+              </p>
+            </div>
+            <div className='card'>
+              <img
+                style={{ width: '100px' }}
+                src='https://www.soul.com.uy/img/ser_perfo.png'
+                alt=''
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                voluptate at nobis perferendis reiciendis.
+              </p>
+            </div>
+            <div className='card'>
+              <img
+                style={{ width: '100px' }}
+                src='https://www.soul.com.uy/img/ser_redes.png'
+                alt=''
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                voluptate at nobis perferendis reiciendis.
+              </p>
+            </div>
           </div>
+
           <br />
         </article>
 
