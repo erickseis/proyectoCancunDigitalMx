@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/styles/home.css';
+import img3 from '../assets/images/4595021.png';
 import img2 from '../assets/images/disenadores-web-barcelona.gif';
-
+import img1 from '../assets/images/40-Usos-del-Celular-en-el-Aula-300x185.png';
 const Home = () => {
   return (
     <>
@@ -37,6 +38,12 @@ const Home = () => {
             <strong>Nosotros </strong>{' '}
           </a>
         </button>
+      </div>
+
+      <div className='img-container'>
+        <img className='img-home img1' src={img1} alt='' />
+
+        <img className='img-home img2' src={img3} alt='' />
       </div>
       <section>
         <article className='description-about'>
