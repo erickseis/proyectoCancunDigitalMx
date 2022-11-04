@@ -1,8 +1,8 @@
 .container-general {
   position: relative;
-  width: 100%;
+  width: 100vh;
   height: 90vh;
-  background-color: #84b6f4be;
+  background-color: #52a7e0;
   overflow: hidden;
 }
 
@@ -23,6 +23,8 @@ h2 {
   color: rgb(254, 254, 254);
   text-shadow: 3px 3px 0 black, 5px 5px 0px rgb(255, 255, 255);
   z-index: 4;
+  font-family: 'Arvo', serif;
+  opacity: 99%;
 }
 .title h2 {
   font-size: 40px;
@@ -35,7 +37,7 @@ h2 {
   z-index: 5;
   border-radius: 20px 20px;
   border: none;
-  background-color: rgba(85, 232, 222, 0.804);
+  background-color: #09c3a1;
   box-shadow: 5px 2px 10px 0px rgba(244, 243, 243, 0.532);
 }
 .containerBackgroundImage {
@@ -100,4 +102,112 @@ h2 {
   text-align: center;
   padding-right: 20rem;
   padding-left: 20rem;
+}
+
+@media (min-width: 1000px) {
+  .container-general {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color: #52a7e0;
+    overflow: hidden;
+  }
+
+  .header {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-about {
+    display: flex;
+    gap: 2rem;
+  }
+  .title h1,
+  h2 {
+    font-size: 100px;
+    color: rgb(254, 254, 254);
+    text-shadow: 3px 3px 0 black, 5px 5px 0px rgb(255, 255, 255);
+    z-index: 4;
+    font-family: 'Arvo', serif;
+    opacity: 99%;
+  }
+  .title h2 {
+    font-size: 40px;
+    margin-left: 9rem;
+  }
+
+  .btn {
+    width: 150px;
+    height: 50px;
+    z-index: 5;
+    border-radius: 20px 20px;
+    border: none;
+    background-color: #09c3a1;
+    box-shadow: 5px 2px 10px 0px rgba(244, 243, 243, 0.532);
+  }
+  .containerBackgroundImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    position: absolute;
+    opacity: 30%;
+  }
+  .wave,
+  .wave2,
+  .wave3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/wave.png);
+    background-size: 1000px 100px;
+    animation: wave 8s linear infinite;
+  }
+  @keyframes wave {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 1000px;
+    }
+  }
+  .wave2 {
+    animation: wave2 11s linear infinite;
+    opacity: 20%;
+  }
+  @keyframes wave2 {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 1000px;
+    }
+  }
+  .wave3 {
+    animation: wave3 12s linear infinite;
+    opacity: 20%;
+  }
+  @keyframes wave3 {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 1000px;
+    }
+  }
+
+  .description-about {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 20rem;
+    padding-left: 20rem;
+  }
 }

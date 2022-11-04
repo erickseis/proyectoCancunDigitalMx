@@ -12,19 +12,19 @@ const Nav = () => {
       </div>
       <div className='navbarList flexNav'>
         <Link className='navText' to='/'>
-          Inicio
+          INICIO
         </Link>
         <Link className='navText' to='/about'>
-          Nosotros
+          NOSOTROS
         </Link>
         <Link className='navText' to='/services'>
-          Servicios
+          SERVICIOS
         </Link>
         <Link className='navText' to='/blog'>
-          Blog
+          BLOG
         </Link>
         <Link className='navText' to='/team'>
-          Equipo
+          EQUIPO
         </Link>
         <a className='navText' href=''>
           <i className='fa-regular fa-moon'></i>
