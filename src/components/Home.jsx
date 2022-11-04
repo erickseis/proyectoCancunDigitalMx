@@ -100,9 +100,9 @@ const Home = () => {
           <br />
         </article>
 
-        <article className='text-desing container-office-us'>
-          <div className='what-we-do'>
-            <h1 id='aboutUs'>LO QUE HACEMOS</h1>
+        <article className='container-office-us'>
+          <div className='what-we-do text-desing '>
+            <h1>LO QUE HACEMOS</h1>
             <br />
             <br />
             <q>
@@ -110,8 +110,9 @@ const Home = () => {
               a,
             </q>
           </div>
-          <div className='container-card'>
-            <div className='card'>
+
+          <div className='container-card text-desing'>
+            <div className='card text-desing'>
               <img
                 style={{ width: '100px' }}
                 src='https://www.soul.com.uy/img/ser_perfo.png'
@@ -122,7 +123,7 @@ const Home = () => {
                 voluptate at nobis perferendis reiciendis.
               </p>
             </div>
-            <div className='card'>
+            <div className='card text-desing'>
               <img
                 style={{ width: '100px' }}
                 src='https://www.soul.com.uy/img/ser_perfo.png'
@@ -133,7 +134,7 @@ const Home = () => {
                 voluptate at nobis perferendis reiciendis.
               </p>
             </div>
-            <div className='card'>
+            <div className='card text-desing'>
               <img
                 style={{ width: '100px' }}
                 src='https://www.soul.com.uy/img/ser_perfo.png'
@@ -144,7 +145,7 @@ const Home = () => {
                 voluptate at nobis perferendis reiciendis.
               </p>
             </div>
-            <div className='card'>
+            <div className='card text-desing'>
               <img
                 style={{ width: '100px' }}
                 src='https://www.soul.com.uy/img/ser_redes.png'
