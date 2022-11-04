@@ -25,10 +25,16 @@ const Home = () => {
       </div>
       <div className='service-about'>
         <button className='btn btn-service'>
-          <a href=''>Servicios</a>
+          <a href=''>
+            {' '}
+            <strong>Servicios</strong>{' '}
+          </a>
         </button>
         <button className='btn btn-about'>
-          <a href='#aboutUs'>Nosotros</a>
+          <a href='#aboutUs'>
+            {' '}
+            <strong>Nosotros </strong>{' '}
+          </a>
         </button>
       </div>
       <section>
