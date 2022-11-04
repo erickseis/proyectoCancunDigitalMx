@@ -86,6 +86,15 @@ h2 {
   margin-left: 12rem;
   transform: rotate(-5deg);
 }
+.office-us {
+  margin-top: 10rem;
+  width: 600px;
+  text-align: center;
+}
+.office-us img {
+  width: 400px;
+}
+
 .wave,
 .wave2,
 .wave3 {
