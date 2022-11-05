@@ -4,6 +4,7 @@ import '../assets/styles/home.css';
 import img3 from '../assets/images/4595021.png';
 import img2 from '../assets/images/disenadores-web-barcelona.gif';
 import img1 from '../assets/images/40-Usos-del-Celular-en-el-Aula-300x185.png';
+import img from '../assets/images/logo.gif';
 const Home = () => {
   return (
     <>
@@ -77,7 +78,6 @@ const Home = () => {
             </button>
           </div>
         </article>
-
         <article className='container-office-us'>
           <div className='text-desing office-us'>
             <h1 id='aboutUs'>NUESTRAS OFICINAS </h1>
@@ -97,7 +97,6 @@ const Home = () => {
           </div>
           <br />
         </article>
-
         <article className='container-office-us'>
           <div className='what-we-do text-desing '>
             <h1>LO QUE HACEMOS</h1>
@@ -158,65 +157,104 @@ const Home = () => {
 
           <br />
         </article>
-
+        0{' '}
         <article className='text-desing'>
           <h1 id='aboutUs'>CASOS DE ÉXITO </h1>
           <br />
           <br />
-          <img
-            style={{ width: '200px' }}
-            src='https://www.soul.com.uy/img/mapa.png'
-            alt=''
-          />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab a,
             explicabo corrupti repudiandae atque consectetur reprehenderit ad
             molestias nobis nisi dolorum.
           </p>
           <br />
-          <button className='btn-view-more'>
-            <i className='fa-solid fa-circle-plus'></i>
-          </button>
-        </article>
-        <article className='text-desing'>
-          <h1 id='aboutUs'>CASOS DE ÉXITO </h1>
-          <br />
-          <br />
-          <img
-            style={{ width: '200px' }}
-            src='https://www.soul.com.uy/img/mapa.png'
-            alt=''
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab a,
-            explicabo corrupti repudiandae atque consectetur reprehenderit ad
-            molestias nobis nisi dolorum.
-          </p>
-          <br />
-          <button className='btn-view-more'>
-            <i className='fa-solid fa-circle-plus '></i>
-          </button>
-        </article>
-        <article className='text-desing'>
-          <h1 id='aboutUs'>CASOS DE ÉXITO </h1>
-          <br />
-          <br />
-          <img
-            style={{ width: '200px' }}
-            src='https://www.soul.com.uy/img/mapa.png'
-            alt=''
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab a,
-            explicabo corrupti repudiandae atque consectetur reprehenderit ad
-            molestias nobis nisi dolorum.
-          </p>
-          <br />
-          <div className='view-more '>
-            <button className='btn-view-more'>Ver Todos</button>
+          <div className='card-container-succes-stories'>
+            <div className='card-stories'>
+              <div className='img-logo'>
+                <img
+                  src='https://1000marcas.net/wp-content/uploads/2020/01/Suzuki-Logo.png'
+                  alt=''
+                />
+              </div>
+              <h4>Susuki Paraguay</h4>
+              <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </q>
+              <button className='btn-more'>
+                <i className='fa-solid fa-circle-plus '></i>
+              </button>
+            </div>
+            <div className='card-stories'>
+              <div className='img-logo'>
+                <img
+                  src='https://1000marcas.net/wp-content/uploads/2020/01/Suzuki-Logo.png'
+                  alt=''
+                />
+              </div>
+              <h4>Susuki Paraguay</h4>
+              <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </q>
+              <button className='btn-more'>
+                <i className='fa-solid fa-circle-plus '></i>
+              </button>
+            </div>
+            <div className='card-stories'>
+              <div className='img-logo'>
+                <img
+                  src='https://1000marcas.net/wp-content/uploads/2020/01/Suzuki-Logo.png'
+                  alt=''
+                />
+              </div>
+              <h4>Susuki Paraguay</h4>
+              <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </q>
+              <button className='btn-more'>
+                <i className='fa-solid fa-circle-plus '></i>
+              </button>
+            </div>
+            <div className='card-stories'>
+              <div className='img-logo'>
+                <img
+                  src='https://1000marcas.net/wp-content/uploads/2020/01/Suzuki-Logo.png'
+                  alt=''
+                />
+              </div>
+              <h4>Susuki Paraguay</h4>
+              <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </q>
+              <button className='btn-more'>
+                <i className='fa-solid fa-circle-plus '></i>
+              </button>
+            </div>
+            <div className='card-stories'>
+              <div className='img-logo'>
+                <img
+                  src='https://1000marcas.net/wp-content/uploads/2020/01/Suzuki-Logo.png'
+                  alt=''
+                />
+              </div>
+              <h4>Susuki Paraguay</h4>
+              <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </q>
+              <button className='btn-more'>
+                <i className='fa-solid fa-circle-plus '></i>
+              </button>
+            </div>
+            <div className='btn-view-more-container'>
+              <button className='btn-view-more cards '>Ver Todos</button>
+            </div>
           </div>
         </article>
-
+        <article>
+          <div className='container-cancun-section'>
+            <div className='img-logo-container'>
+              <img src={img} alt='' />
+            </div>
+            <q>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              odit pariatur cupiditate accusantium saepe magnam, ipsum cumque
+              sit delectus ad est similique porro, fugiat consequuntur eveniet
+              quasi dolores nisi earum.
+            </q>
+            <div className='btn-view-more-container cancun-section'>
+              <button className='btn-view-more cards '>Ver Todos</button>
+            </div>
+          </div>
+        </article>
         <article className='text-desing'>
           <div>
             <h1>NUESTROS CLIENTES</h1>
@@ -225,19 +263,72 @@ const Home = () => {
               maxime facilis voluptatibus modi omnis...
             </p>
           </div>
-          <br />
-          <span>logo empresa</span>
-
-          <br />
-          <span>logo empresa</span>
-
-          <br />
-          <span>logo empresa</span>
-
-          <br />
-          <span>logo empresa...</span>
-          <div>
-            <button className='btn-view-more'>Ver Todos</button>
+          <div className='logo-container clients'>
+            <div className='img-clients'>
+              <img
+                src='https://i.pinimg.com/originals/4e/f9/9b/4ef99bc174c67d7283fca76c78bc6895.png'
+                alt=''
+              />
+            </div>
+            <div className='img-clients'>
+              <img
+                src='https://i.pinimg.com/originals/4e/f9/9b/4ef99bc174c67d7283fca76c78bc6895.png'
+                alt=''
+              />
+            </div>
+            <div className='img-clients'>
+              <img
+                src='https://i.pinimg.com/originals/4e/f9/9b/4ef99bc174c67d7283fca76c78bc6895.png'
+                alt=''
+              />
+            </div>
+            <div className='img-clients'>
+              <img
+                src='https://i.pinimg.com/originals/4e/f9/9b/4ef99bc174c67d7283fca76c78bc6895.png'
+                alt=''
+              />
+            </div>
+            <div className='img-clients'>
+              <img
+                src='https://i.pinimg.com/originals/4e/f9/9b/4ef99bc174c67d7283fca76c78bc6895.png'
+                alt=''
+              />
+            </div>
+            <div className='img-clients'>
+              <img
+                src='https://i.pinimg.com/originals/4e/f9/9b/4ef99bc174c67d7283fca76c78bc6895.png'
+                alt=''
+              />
+            </div>
+            <div className='img-clients'>
+              <img
+                src='https://i.pinimg.com/originals/4e/f9/9b/4ef99bc174c67d7283fca76c78bc6895.png'
+                alt=''
+              />
+            </div>
+            <div className='img-clients'>
+              <img
+                src='https://i.pinimg.com/originals/4e/f9/9b/4ef99bc174c67d7283fca76c78bc6895.png'
+                alt=''
+              />
+            </div>
+            <div className='img-clients'>
+              <img
+                src='https://i.pinimg.com/originals/4e/f9/9b/4ef99bc174c67d7283fca76c78bc6895.png'
+                alt=''
+              />
+            </div>
+            <div className='img-clients'>
+              <img
+                src='https://i.pinimg.com/originals/4e/f9/9b/4ef99bc174c67d7283fca76c78bc6895.png'
+                alt=''
+              />
+            </div>
+          </div>
+          <div className='flex'>
+            <div>
+              <button className='btn-view-more'>Ver Todos</button>
+            </div>
           </div>
         </article>
       </section>
