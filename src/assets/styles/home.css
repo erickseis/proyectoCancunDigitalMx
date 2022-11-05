@@ -285,9 +285,37 @@ h1 {
   grid-template-columns: repeat(5, 1fr);
   gap: 0.5rem;
 }
+
 .logo-container.clients img {
   margin-bottom: 2rem;
   width: 50px;
+}
+.img-contain.news {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.img-contain img {
+  width: 350px;
+  height: 280px;
+  border-radius: 5px;
+}
+.font-info {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+}
+.font-img img {
+  margin-right: 0.5rem;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 @media (min-width: 1000px) {

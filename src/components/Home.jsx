@@ -5,6 +5,7 @@ import img3 from '../assets/images/4595021.png';
 import img2 from '../assets/images/disenadores-web-barcelona.gif';
 import img1 from '../assets/images/40-Usos-del-Celular-en-el-Aula-300x185.png';
 import img from '../assets/images/logo.gif';
+import Contact from './Contact';
 const Home = () => {
   return (
     <>
@@ -73,9 +74,11 @@ const Home = () => {
               placeat adipisci perspiciatis!ç
             </p>
             <br />
-            <button className='btn-view-more'>
-              <Link to='/about'>Ver Más</Link>
-            </button>
+            <div className='flex'>
+              <div>
+                <button className='btn-view-more'>Ver Todos</button>
+              </div>
+            </div>
           </div>
         </article>
         <article className='container-office-us'>
@@ -334,18 +337,31 @@ const Home = () => {
       </section>
       <br />
       <section>
-        <article className='text-desing'>
+        <article className='text-desing news'>
           <h1>ÚLTIMAS NOVEDADES</h1>
-          <img
-            style={{ width: '200px' }}
-            src='https://www.soul.com.uy/public/7c9a05ec82.jpg'
-            alt=''
-          />
+          <div className='img-contain news'>
+            <img src='https://www.soul.com.uy/public/7c9a05ec82.jpg' alt='' />
+          </div>
           <h4>
             <a href=''>GOOGLE ANALYTICS</a>{' '}
           </h4>
-
+          <div className='font-info'>
+            <div className='font-img'>
+              <img
+                src='https://www.soul.com.uy/public/2ef9cffab5.jpeg'
+                alt=''
+              />
+            </div>
+            <p>
+              <strong>Jose Delgado</strong>
+              <br />
+              2022-09-22
+            </p>
+          </div>
           <h1>¿Estrategias efectivas?: Data driven creativity</h1>
+          <div className='img-contain news'>
+            <img src='https://www.soul.com.uy/public/404d69b268.jpg' alt='' />
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
             esse eos neque at, excepturi deleniti earum doloremque nihil tempora
@@ -354,17 +370,17 @@ const Home = () => {
           </p>
           <br />
           <h3>¿Por qué es importante utilizarla?</h3>
-          <img
-            style={{ width: '100px' }}
-            src='https://www.soul.com.uy/public/129ee64291.jpg'
-            alt=''
-          />
-        </article>
-        <article className='text-desing'>
-          <div>
-            <h1>OTRAS NOVEDADES</h1>
+          <div className='flex'>
+            <div>
+              <br />
+              <br />
+              <button className='btn-view-more'>Ver Todos</button>
+            </div>
           </div>
         </article>
+      </section>
+      <section>
+        <Contact />
       </section>
     </>
   );
