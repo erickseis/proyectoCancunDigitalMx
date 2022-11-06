@@ -10,7 +10,7 @@ const Nav = () => {
     setClicked(!clicked); //true -> false - false->true
   };
   return (
-    <div className='navbar flexNav'>
+    <div className={`navbar ${clicked ? 'active' : ''} flexNav`}>
       <div className='icon-cancun'>
         <img src={img} alt='' />
       </div>
