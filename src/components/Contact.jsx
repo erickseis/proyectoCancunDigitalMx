@@ -24,6 +24,7 @@ function Contact() {
             </label>
             <br />
             <input
+              style={{ padding: '0.375rem 0.75rem' }}
               type='email'
               {...register('email', {
                 required: true,
@@ -43,6 +44,7 @@ function Contact() {
             </label>
             <br />
             <input
+              style={{ padding: '0.375rem 0.75rem' }}
               type='text'
               {...register('nombre', { required: true, maxLength: 10 })}
             />
@@ -56,7 +58,11 @@ function Contact() {
           <div>
             <label>Apellido</label>
             <br />
-            <input type='text' {...register('apellido')} />
+            <input
+              style={{ padding: '0.375rem 0.75rem' }}
+              type='text'
+              {...register('apellido')}
+            />
           </div>
           <div>
             <label>
@@ -64,6 +70,7 @@ function Contact() {
             </label>
             <br />
             <input
+              style={{ padding: '0.375rem 0.75rem' }}
               type='text'
               {...register('telefono', {
                 required: true,
@@ -82,13 +89,18 @@ function Contact() {
               Pais/region <span>*</span>
             </label>
             <br />
-            <input type='text' {...register('pais/region')} />
+            <input
+              style={{ padding: '0.375rem 0.75rem' }}
+              type='text'
+              {...register('pais/region')}
+            />
           </div>
           <label for='description'>
             Mensaje <span>*</span>
           </label>
           <br />
           <textarea
+            style={{ padding: '0.375rem 0.75rem' }}
             name='description'
             id='description'
             cols='30'

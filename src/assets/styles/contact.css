@@ -16,6 +16,8 @@ div p {
   margin-bottom: 1rem;
 }
 input {
+  padding: 0 15px;
+  text-align: left;
   width: 300px;
   height: 30px;
   border-radius: 5px;
@@ -24,6 +26,7 @@ input {
   padding: 0.1rem;
   margin-bottom: 0.5rem;
 }
+
 label span {
   color: red;
 }
