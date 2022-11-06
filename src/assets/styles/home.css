@@ -8,7 +8,6 @@
   height: 70vh;
   background-color: #52a7e0;
   overflow: hidden;
-  /* z-index: -4; */
 }
 
 .header {
@@ -56,11 +55,20 @@ h2 {
   color: white;
   font-size: 16px;
 }
-.btn-about {
-  background-color: transparent;
-  border: solid #09c3a1;
-  box-shadow: 10px 5px 10px 0px #09c3a1;
+.btn-service:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 5px 10px 0px white;
 }
+.btn-about {
+  background-color: #09c3a1ae;
+  box-shadow: 10px 5px 10px 0px rgba(244, 243, 243, 0.532);
+}
+.btn-about:hover {
+  background-color: #09c3a1;
+  box-shadow: 10px 5px 10px 0px white;
+  transform: scale(1.1);
+}
+
 .containerBackgroundImage {
   width: 100%;
   display: flex;

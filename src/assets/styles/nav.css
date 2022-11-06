@@ -16,13 +16,14 @@
   justify-content: space-between;
   width: 90%;
   overflow: hidden;
-  /* padding-right: 15rem;
-  padding-left: 5rem; */
 }
 
 .navText {
   text-decoration: none;
   color: white;
+}
+.navText:hover {
+  transform: scale(1.2);
 }
 .icon-cancun img {
   width: 100px;

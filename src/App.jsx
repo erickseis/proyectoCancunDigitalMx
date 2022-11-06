@@ -23,7 +23,7 @@ function App() {
           <Route path='/team' element={<Team />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-        <Footer />
+        <Footer className='footer' />
       </HashRouter>
     </div>
   );
