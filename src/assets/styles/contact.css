@@ -42,6 +42,8 @@ textarea {
   height: 40px;
 }
 .btn.submit {
+  text-align: center;
+  font-weight: bold;
   color: white;
   margin-top: 2rem;
 }
