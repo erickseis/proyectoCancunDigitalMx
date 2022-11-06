@@ -1,10 +1,44 @@
+.contact-container {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  width: 100%;
+  height: 500px;
+}
 .form-contain {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  background-color: aqua;
   width: 300px;
   height: 300px;
+}
+div p {
+  margin-bottom: 1rem;
+}
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 10px 1px gray;
+  padding: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+label span {
+  color: red;
+}
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 10px 1px gray;
+}
+
+.btn.submit .flex {
+  width: 100px;
+  height: 40px;
+}
+.btn.submit {
+  color: white;
+  margin-top: 2rem;
 }
