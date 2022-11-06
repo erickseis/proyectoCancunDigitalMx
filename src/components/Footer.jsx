@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/styles/footer.css';
 import imagen from '../assets/images/logo.gif';
+import imgInstagram from '../assets/images/instagram-logo.png';
+import imgFacebook from '../assets/images/facebook-logo-3-1.png';
+import imgTwitter from '../assets/images/twitter-icon.png';
+import imgLinkdin from '../assets/images/LinkedIn_icon.png';
 const Footer = () => {
   return (
     <div className='footer-contain'>
@@ -15,7 +19,7 @@ const Footer = () => {
             consectetur dolor nesciunt facere, eum repellat laboriosam nihil
             reprehenderit aut.{' '}
           </p>
-          <ul>
+          <ul className='list-contain access-direct'>
             <li>
               <Link to='/'>Inicio</Link>
             </li>
@@ -41,15 +45,15 @@ const Footer = () => {
               <Link to='/'>Email marketing</Link>
             </li>
           </ul>
-          <ul>
+          <ul className='list-contain success-stories'>
             <li>
-              <Link to='/'>Sasos de exito</Link>
+              <Link to='/'>Casos de exito</Link>
             </li>
             <li>
               <Link to='/'>Clientes</Link>
             </li>
           </ul>
-          <ul>
+          <ul className='list-contain'>
             <li>
               <Link to='/blog'>Blog</Link>
             </li>
@@ -57,36 +61,43 @@ const Footer = () => {
               <Link to='/contact'> Contacto</Link>
             </li>
           </ul>
-          <div>
-            <ul>
+          <div className='logo-network contain'>
+            <h4>Siguenos</h4>
+            <ul className='list-logo'>
               <li>
                 <span>
-                  <img src='' alt='' />
+                  <img src={imgFacebook} alt='' />
                 </span>
               </li>
               <li>
                 <span>
-                  <img src='' alt='' />
+                  <img src={imgTwitter} alt='' />
                 </span>
               </li>
               <li>
                 <span>
-                  <img src='' alt='' />
+                  <img src={imgInstagram} alt='' />
                 </span>
               </li>
               <li>
                 <span>
-                  <img src='' alt='' />
+                  <img src={imgLinkdin} alt='' />
                 </span>
               </li>
             </ul>
           </div>
-          <div>
-            <h1>Encuentranos</h1>
-            <ul>
-              <li>email@</li>
-              <li>numero telefono fijo</li>
-              <li>numero telefono celular</li>
+          <div className='contact-us-contain'>
+            <h4>Encuentranos</h4>
+            <ul className='list-data'>
+              <li>
+                <i className='fa-regular fa-envelope'></i> email@
+              </li>
+              <li>
+                <i class='fa-solid fa-phone'></i> numero telefono fijo
+              </li>
+              <li>
+                <i className='fa-light fa-phone'></i> numero telefono celular
+              </li>
             </ul>
           </div>
         </div>
