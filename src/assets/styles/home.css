@@ -519,8 +519,8 @@ h1 {
       height: 8rem;
     }
     100% {
-      width: 6.6rem;
-      height: 6.6rem;
+      width: 0rem;
+      height: 0rem;
     }
   }
 }
