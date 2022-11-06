@@ -93,7 +93,7 @@ const Footer = () => {
                 <i className='fa-regular fa-envelope'></i> email@
               </li>
               <li>
-                <i class='fa-solid fa-phone'></i> numero telefono fijo
+                <i className='fa-solid fa-phone'></i> numero telefono fijo
               </li>
               <li>
                 <i className='fa-light fa-phone'></i> numero telefono celular

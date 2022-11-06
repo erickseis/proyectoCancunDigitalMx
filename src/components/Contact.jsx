@@ -93,7 +93,7 @@ function Contact() {
               {...register('pais/region')}
             />
           </div>
-          <label for='description'>
+          <label>
             Mensaje <span>*</span>
           </label>
           <br />

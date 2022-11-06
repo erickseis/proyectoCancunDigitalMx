@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/styles/home.css';
 import img3 from '../assets/images/4595021.png';
@@ -55,7 +55,7 @@ const Home = () => {
                   fontSize: '40px',
                   marginBottom: '1rem',
                 }}
-                class='fa-solid fa-heart'
+                className='fa-solid fa-heart'
               ></i>
             </div>
             <h1 id='aboutUs'>SOBRE NOSOTROS</h1>
@@ -382,6 +382,11 @@ const Home = () => {
       <section>
         <Contact />
       </section>
+      <div className='scroll-up-btn-container'>
+        <div className='scroll-up-btn show'>
+          <i className='fa-solid fa-circle-up'></i>
+        </div>
+      </div>
     </>
   );
 };
