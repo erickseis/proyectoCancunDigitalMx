@@ -30,6 +30,9 @@ const Nav = () => {
         <Link onClick={handleClick} className='navText' to='/team'>
           EQUIPO
         </Link>
+        <Link onClick={handleClick} className='navText' to='/contact'>
+          CONTACTO
+        </Link>
         <a onClick={handleClick} className='navText' href=''>
           <i className='fa-regular fa-moon'></i>
         </a>

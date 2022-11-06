@@ -85,9 +85,7 @@ function Contact() {
             )}
           </div>
           <div>
-            <label>
-              Pais/region <span>*</span>
-            </label>
+            <label>Pais/region</label>
             <br />
             <input
               style={{ padding: '0.375rem 0.75rem' }}

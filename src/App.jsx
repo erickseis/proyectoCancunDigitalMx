@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import './assets/styles/App.css';
 import About from './components/About';
 import Blog from './components/Blog';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Nav from './components/Nav';
@@ -20,9 +21,10 @@ function App() {
           <Route path='/services' element={<Services />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/team' element={<Team />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
+        <Footer />
       </HashRouter>
-      <Footer />
     </div>
   );
 }
