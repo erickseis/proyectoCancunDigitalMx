@@ -27,7 +27,7 @@ const About = () => {
           </h1>
         </div>
         <br />
-        <div>
+        <div className='child-float-rigth'>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
             aliquid sit perferendis assumenda voluptatum illum placeat unde
@@ -41,10 +41,15 @@ const About = () => {
             reprehenderit totam corrupti ab?
           </p>
         </div>
-        <div className='child-aboutus general'>
+        <br />
+        <br />
+        <div className='child-aboutus general office'>
+          <br />
+          <br />
           <h1>NUESTRAS OFICINAS</h1>
           <br />
-          <p>
+          <br />
+          <p className=''>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
             repudiandae alias voluptatem minus, fugiat, quos magnam unde
             laboriosam sed dolorum rerum, voluptate fugit tenetur beatae iure

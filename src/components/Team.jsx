@@ -7,7 +7,9 @@ const Team = () => {
     <>
       <div className='contain-team'>
         <div className='child-team general'>
+          <br />
           <h1>NUESTRO EQUIPO</h1>
+          <br />
           <br />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab a,

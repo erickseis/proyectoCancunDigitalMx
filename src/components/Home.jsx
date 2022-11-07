@@ -256,7 +256,7 @@ const Home = () => {
             </div>
           </div>
         </article>
-        <article className='text-desing client-us'>
+        {/* <article className='text-desing client-us'>
           <div className='child-clientus'>
             <h1>NUESTROS CLIENTES</h1>
             <p>
@@ -331,7 +331,7 @@ const Home = () => {
               <button className='btn-view-more'>Ver Todos</button>
             </div>
           </div>
-        </article>
+        </article> */}
       </section>
       <br />
 
