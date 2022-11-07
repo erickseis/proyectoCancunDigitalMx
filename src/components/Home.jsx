@@ -29,14 +29,14 @@ const Home = () => {
         </div>
         <div className='service-about'>
           <button className='btn btn-service'>
-            <a href=''>
+            <Link to='/services'>
               <strong>Servicios</strong>
-            </a>
+            </Link>
           </button>
           <button className='btn btn-about'>
-            <a href='#aboutUs'>
+            <Link to='/about'>
               <strong>Nosotros </strong>
-            </a>
+            </Link>
           </button>
         </div>
       </div>
@@ -256,8 +256,8 @@ const Home = () => {
             </div>
           </div>
         </article>
-        <article className='text-desing'>
-          <div>
+        <article className='text-desing client-us'>
+          <div className='child-clientus'>
             <h1>NUESTROS CLIENTES</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
