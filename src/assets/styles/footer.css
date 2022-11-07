@@ -95,15 +95,17 @@
 }
 @media (min-width: 1000px) {
   .footer-contain {
-    background: linear-gradient(-10deg, #52a7e0 60%, white 50%);
-  }
-  .grid-container {
     width: 100%;
+    padding-left: 35rem;
+    padding-right: 35rem;
+    background: linear-gradient(-10deg, #52a7e0 53%, white 50%);
+  }
+
+  .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    padding-left: 5rem;
-    padding-right: 5rem;
-    margin-top: 5rem;
+    place-items: center;
+    margin-top: -5rem;
     padding-bottom: 5rem;
     align-items: baseline;
   }
@@ -116,21 +118,36 @@
   }
   .grid-child.logo-cancun {
     width: 400px;
+    border-top: none;
   }
 
   .grid-child {
     width: 15rem;
   }
   .footer-child p {
+    font-size: 14px;
     text-align: justify;
   }
   .list-contain {
     text-align: left;
+
+    font-size: 14px;
   }
   .list-logo {
     gap: 2rem;
   }
   .contact-us-contain {
     text-align: left;
+
+    font-size: 14px;
+  }
+  .border-botton {
+    width: 1000px;
+  }
+  .border-botton p {
+    font-size: 14px;
+  }
+  .logo-network h4 {
+    font-size: 14px;
   }
 }
