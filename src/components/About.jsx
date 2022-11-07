@@ -53,7 +53,7 @@ const About = () => {
           <dir className=''>
             <img src='' alt='' />
           </dir>
-          <dir className=''>
+          <div className='list-img-aboutus'>
             <img src='' alt='' />
             <img src='' alt='' />
             <img src='' alt='' />
@@ -62,7 +62,7 @@ const About = () => {
             <img src='' alt='' />
             <img src='' alt='' />
             <img src='' alt='' />
-          </dir>
+          </div>
         </div>
       </div>
       <Contact />
