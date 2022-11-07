@@ -50,17 +50,12 @@
   .navbarList {
     display: none;
     position: absolute;
-    top: -700px;
-    left: -2000px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     z-index: 6;
-    position: initial;
-    margin: 0;
   }
   .navbarList .navText {
-    color: black;
     font-size: 2rem;
     display: block;
     right: 0;
@@ -83,6 +78,10 @@
   }
   .navbarList.active {
     position: fixed;
+  }
+  .navbarList.active .nav {
+    display: flex;
+    flex-direction: column;
   }
   .bgDiv {
     position: absolute;
