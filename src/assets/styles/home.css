@@ -334,6 +334,7 @@ h1 {
 @media (min-width: 1000px) {
   .container-general {
     height: 90vh;
+    padding-top: 2rem;
   }
   .title h1,
   h2 {
@@ -467,5 +468,126 @@ h1 {
     100% {
       transform: rotate(0deg);
     }
+  }
+  .success-stories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .success-stories-container h1 {
+    width: 300px;
+  }
+  .success-stories-container p {
+    width: 1000px;
+  }
+  .card-container-succes-stories {
+    width: 100%;
+    padding: 0 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0rem;
+  }
+  .card-stories {
+    width: 300px;
+    height: 227px;
+  }
+  .btn-view-more-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-cancun-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  .container-cancun-section q {
+    width: 600px;
+  }
+  .logo-container.clients {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    padding: 0 4rem;
+  }
+
+  .logo-container.clients img {
+    width: 100px;
+    filter: grayscale(0.8);
+  }
+  .logo-container.clients img:hover {
+    filter: grayscale(0);
+    transform: scale(1.5);
+    transition-property: filter;
+    transition-duration: 1s;
+  }
+  .news-section-container {
+    margin-top: -15rem;
+    position: relative;
+    height: 200vh;
+    background: linear-gradient(-10deg, #edf4f8 70%, white 20%);
+    z-index: -5;
+  }
+  .title-news {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .news-container {
+    z-index: 100;
+    margin-top: 35rem;
+    width: 100%;
+    display: inline-block;
+  }
+  .ultimate-news-container {
+    background-color: white;
+    margin-left: 6rem;
+    margin-right: 1rem;
+    display: block;
+    float: left;
+    width: 500px;
+    height: 600px;
+  }
+  .ultimate-news {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .img-contain.news1 img {
+    width: 450px;
+    height: 350px;
+  }
+  .img-contain img {
+    width: 250px;
+    height: 200px;
+  }
+  .card-news-container {
+    display: grid;
+    text-align: left;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+  }
+  .card-news {
+    width: 250px;
+    margin-left: -2rem;
   }
 }

@@ -8,7 +8,8 @@ function Contact() {
     handleSubmit,
   } = useForm();
 
-  const onSubmit = (data) => {
+  const onSubmit = (e) => {
+    e.preventDefault();
     console.log(data);
   };
 

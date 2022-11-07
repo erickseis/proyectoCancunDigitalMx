@@ -105,19 +105,27 @@
 }
 @media (min-width: 768px) {
   .navbar {
-    background-color: #52a7e0;
+    width: 100%;
+    background-color: #52a7e0ac;
     border-bottom: 1px solid rgba(255, 255, 255, 0.212);
     box-shadow: 5px 5px 5px 5px solid rgb(0, 0, 0);
     align-items: center;
     justify-content: space-between;
     height: 70px;
     padding-left: 15rem;
+    position: fixed;
+    z-index: 1000;
+  }
+  .navbar:hover {
+    background-color: #52a7e0;
   }
   .flexNav {
     display: flex;
   }
   .navbarList {
-    align-items: center;
+    display: flex;
+    gap: 2rem;
+    /* align-items: center; */
     text-decoration: none;
     color: white;
     justify-content: space-between;

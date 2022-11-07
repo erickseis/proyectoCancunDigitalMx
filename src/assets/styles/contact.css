@@ -58,3 +58,37 @@ textarea {
   color: white;
   margin-top: 3rem;
 }
+
+@media (min-width: 1000px) {
+  .form-contain {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 10px 0.2px rgba(128, 128, 128, 0.733);
+    width: 900px;
+    height: 900px;
+  }
+
+  input {
+    padding: 0 15px;
+    text-align: left;
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 10px 1px gray;
+    padding: 0.1rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .btn.submit .flex {
+    width: 100px;
+    height: 20px;
+  }
+  .btn.submit {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+}

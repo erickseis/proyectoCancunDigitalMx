@@ -146,7 +146,7 @@ const Home = () => {
           <br />
         </article>
         0{' '}
-        <article className='text-desing'>
+        <article className='text-desing success-stories-container'>
           <h1 id='aboutUs'>CASOS DE ÉXITO </h1>
           <br />
           <br />
@@ -222,9 +222,22 @@ const Home = () => {
                 <i className='fa-solid fa-circle-plus '></i>
               </button>
             </div>
-            <div className='btn-view-more-container'>
-              <button className='btn-view-more cards '>Ver Todos</button>
+            <div className='card-stories'>
+              <div className='img-logo'>
+                <img
+                  src='https://1000marcas.net/wp-content/uploads/2020/01/Suzuki-Logo.png'
+                  alt=''
+                />
+              </div>
+              <h4>Susuki Paraguay</h4>
+              <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </q>
+              <button className='btn-more'>
+                <i className='fa-solid fa-circle-plus '></i>
+              </button>
             </div>
+          </div>
+          <div className='btn-view-more-container'>
+            <button className='btn-view-more cards '>Ver Todos</button>
           </div>
         </article>
         <article>
@@ -321,40 +334,103 @@ const Home = () => {
         </article>
       </section>
       <br />
-      <section>
-        <article className='text-desing news'>
-          <h1>ÚLTIMAS NOVEDADES</h1>
-          <div className='img-contain news'>
-            <img src='https://www.soul.com.uy/public/7c9a05ec82.jpg' alt='' />
+
+      <section className='news-section-container'>
+        <article className='text-desing news-container'>
+          <div className='title-news'>
+            <h1>ÚLTIMAS NOVEDADES</h1>
           </div>
-          <h4>
-            <a href=''>GOOGLE ANALYTICS</a>{' '}
-          </h4>
-          <div className='font-info'>
-            <div className='font-img'>
-              <img
-                src='https://www.soul.com.uy/public/2ef9cffab5.jpeg'
-                alt=''
-              />
+          <div className='ultimate-news-container'>
+            <div className='ultimate-news'>
+              <div className='img-contain news1'>
+                <img
+                  src='https://www.soul.com.uy/public/7c9a05ec82.jpg'
+                  alt=''
+                />
+              </div>
+              <h4>
+                <a href=''>GOOGLE ANALYTICS</a>{' '}
+              </h4>
+              <h1>¿Estrategias efectivas?: Data driven creativity</h1>
+              <div className='font-info'>
+                <div className='font-img'>
+                  <img
+                    src='https://www.soul.com.uy/public/2ef9cffab5.jpeg'
+                    alt=''
+                  />
+                </div>
+                <p>
+                  <strong>Jose Delgado</strong>
+                  <br />
+                  2022-09-22
+                </p>
+              </div>
             </div>
-            <p>
-              <strong>Jose Delgado</strong>
+          </div>
+
+          <div className='card-news-container'>
+            <div className='card-news'>
+              <div className='img-contain news'>
+                <img
+                  src='https://www.soul.com.uy/public/404d69b268.jpg'
+                  alt=''
+                />
+              </div>
+              <h4>
+                <a href=''>GOOGLE ANALYTICS</a>{' '}
+              </h4>
               <br />
-              2022-09-22
-            </p>
+              <h3>¿Por qué es importante utilizarla?</h3>
+              <br />
+              <h5>Pablo tarsui</h5>
+            </div>
+            <div className='card-news'>
+              <div className='img-contain news'>
+                <img
+                  src='https://www.soul.com.uy/public/404d69b268.jpg'
+                  alt=''
+                />
+              </div>
+              <h4>
+                <a href=''>GOOGLE ANALYTICS</a>{' '}
+              </h4>
+              <br />
+              <h3>¿Por qué es importante utilizarla?</h3>
+              <br />
+              <h5>Pablo tarsui</h5>
+            </div>
+            <div className='card-news'>
+              <div className='img-contain news'>
+                <img
+                  src='https://www.soul.com.uy/public/404d69b268.jpg'
+                  alt=''
+                />
+              </div>
+              <h4>
+                <a href=''>GOOGLE ANALYTICS</a>{' '}
+              </h4>
+              <br />
+              <h3>¿Por qué es importante utilizarla?</h3>
+              <br />
+              <h5>Pablo tarsui</h5>
+            </div>
+            <div className='card-news'>
+              <div className='img-contain news'>
+                <img
+                  src='https://www.soul.com.uy/public/404d69b268.jpg'
+                  alt=''
+                />
+              </div>
+              <h4>
+                <a href=''>GOOGLE ANALYTICS</a>{' '}
+              </h4>
+              <br />
+              <h3>¿Por qué es importante utilizarla?</h3>
+              <br />
+              <h5>Pablo tarsui</h5>
+            </div>
           </div>
-          <h1>¿Estrategias efectivas?: Data driven creativity</h1>
-          <div className='img-contain news'>
-            <img src='https://www.soul.com.uy/public/404d69b268.jpg' alt='' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            esse eos neque at, excepturi deleniti earum doloremque nihil tempora
-            perspiciatis voluptatibus unde praesentium possimus aliquam
-            voluptas, dolor quas ea mollitia!
-          </p>
-          <br />
-          <h3>¿Por qué es importante utilizarla?</h3>
+
           <div className='flex'>
             <div>
               <br />
