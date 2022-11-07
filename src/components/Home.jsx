@@ -114,44 +114,28 @@ const Home = () => {
 
           <div className='container-card text-desing'>
             <div className='card text-desing'>
-              <img
-                style={{ width: '100px' }}
-                src='https://www.soul.com.uy/img/ser_perfo.png'
-                alt=''
-              />
+              <img src='https://www.soul.com.uy/img/ser_perfo.png' alt='' />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 voluptate at nobis perferendis reiciendis.
               </p>
             </div>
             <div className='card text-desing'>
-              <img
-                style={{ width: '100px' }}
-                src='https://www.soul.com.uy/img/ser_perfo.png'
-                alt=''
-              />
+              <img src='https://www.soul.com.uy/img/ser_perfo.png' alt='' />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 voluptate at nobis perferendis reiciendis.
               </p>
             </div>
             <div className='card text-desing'>
-              <img
-                style={{ width: '100px' }}
-                src='https://www.soul.com.uy/img/ser_perfo.png'
-                alt=''
-              />
+              <img src='https://www.soul.com.uy/img/ser_perfo.png' alt='' />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 voluptate at nobis perferendis reiciendis.
               </p>
             </div>
             <div className='card text-desing'>
-              <img
-                style={{ width: '100px' }}
-                src='https://www.soul.com.uy/img/ser_redes.png'
-                alt=''
-              />
+              <img src='https://www.soul.com.uy/img/ser_redes.png' alt='' />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 voluptate at nobis perferendis reiciendis.

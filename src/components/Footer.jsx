@@ -21,44 +21,70 @@ const Footer = () => {
           </p>
           <ul className='list-contain access-direct'>
             <li>
-              <Link to='/'>Inicio</Link>
+              <Link className='li' to='/'>
+                Inicio
+              </Link>
             </li>
             <li>
-              <Link to='/about'>Nosotros</Link>
+              <Link className='li' to='/about'>
+                Nosotros
+              </Link>
             </li>
             <li>
-              <Link to='/'>Posicionamiento Web</Link>
+              <Link className='li' to='/'>
+                Posicionamiento Web
+              </Link>
             </li>
             <li>
-              <Link to='/'>Social ads</Link>
+              <Link className='li' to='/'>
+                Social ads
+              </Link>
             </li>
             <li>
-              <Link to='/'> Contenido creativo</Link>
+              <Link className='li' to='/'>
+                {' '}
+                Contenido creativo
+              </Link>
             </li>
             <li>
-              <Link to='/'>Gestion redes sociales</Link>
+              <Link className='li' to='/'>
+                Gestion redes sociales
+              </Link>
             </li>
             <li>
-              <Link to='/'>Diseño</Link>
+              <Link className='li' to='/'>
+                Diseño
+              </Link>
             </li>
             <li>
-              <Link to='/'>Email marketing</Link>
+              <Link className='li' to='/'>
+                Email marketing
+              </Link>
             </li>
           </ul>
           <ul className='list-contain success-stories'>
             <li>
-              <Link to='/'>Casos de exito</Link>
+              <Link className='li' to='/'>
+                Casos de exito
+              </Link>
             </li>
             <li>
-              <Link to='/'>Clientes</Link>
+              <Link className='li' to='/'>
+                Clientes
+              </Link>
             </li>
           </ul>
           <ul className='list-contain'>
             <li>
-              <Link to='/blog'>Blog</Link>
+              <Link className='li' to='/blog'>
+                Blog
+              </Link>
             </li>
             <li>
-              <Link to='/contact'> Contacto</Link>
+              <Link className='li' to='/contact'>
+                {' '}
+                Contacto
+              </Link>
             </li>
           </ul>
           <div className='logo-network contain'>

@@ -198,16 +198,21 @@ h1 {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   width: 300px;
   height: 200px;
   border: none;
   border-radius: 5px;
   margin-top: 1rem;
-  padding: 1rem;
+  padding: 0.5rem 2rem;
   box-shadow: 0px 5px 10px 5px rgba(202, 199, 199, 0.795);
 }
 .card:hover {
   box-shadow: 0px 5px 10px 5px #09c3a1b4;
+}
+.card img {
+  width: 80px;
 }
 .card-container-succes-stories {
   width: 100%;
