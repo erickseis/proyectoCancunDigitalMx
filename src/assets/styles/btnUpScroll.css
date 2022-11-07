@@ -1,4 +1,4 @@
-.btn-smooth {
+.btn-smooth::before {
   background-color: #09c3a1b2;
   color: #09c3a1b2;
   border-radius: 50%;
