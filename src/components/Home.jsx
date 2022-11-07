@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/styles/home.css';
 import img3 from '../assets/images/4595021.png';
@@ -6,6 +6,7 @@ import img2 from '../assets/images/disenadores-web-barcelona.gif';
 import img1 from '../assets/images/40-Usos-del-Celular-en-el-Aula-300x185.png';
 import img from '../assets/images/logo.gif';
 import Contact from './Contact';
+import BtnUpScroll from '../components/btnUpScroll';
 const Home = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const Home = () => {
           <div className='wave2'></div>
           <div className='wave3'></div>
         </div>
-        <div className='header'>
+        <div className='header' id='header'>
           <div className='title'>
             <h1>CANCÚN</h1>
             <br />
@@ -382,11 +383,14 @@ const Home = () => {
       <section>
         <Contact />
       </section>
-      <div className='scroll-up-btn-container'>
+      <BtnUpScroll />
+      {/* <div className='scroll-up-btn-container'>
         <div className='scroll-up-btn show'>
-          <i className='fa-solid fa-circle-up'></i>
+          <a href='#header'>
+            <i className='fa-solid fa-circle-up'></i>
+          </a>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
