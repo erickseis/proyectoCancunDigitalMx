@@ -5,6 +5,7 @@ import img3 from '../assets/images/4595021.png';
 import img2 from '../assets/images/disenadores-web-barcelona.gif';
 import img1 from '../assets/images/40-Usos-del-Celular-en-el-Aula-300x185.png';
 import img from '../assets/images/logo.gif';
+import imgMexico from '../assets/images/Mapa-de-Mexico-cb5a2e9a.png';
 import Contact from './Contact';
 import BtnUpScroll from '../components/btnUpScroll';
 const Home = () => {
@@ -95,7 +96,7 @@ const Home = () => {
             </p>
             <img
               // style={{ width: '200px' }}
-              src='https://www.soul.com.uy/img/mapa.png'
+              src={imgMexico}
               alt=''
             />
           </div>

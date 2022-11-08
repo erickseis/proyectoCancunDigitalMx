@@ -12,6 +12,7 @@ import Team from './components/Team';
 import WebPosition from './components/WebPosition';
 import SocialAds from './components/SocialAds';
 import Creative from './components/Creative';
+import NetworkSocials from './components/NetworkSocials';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           <Route path='/webPosition' element={<WebPosition />} />
           <Route path='/social' element={<SocialAds />} />
           <Route path='/creative' element={<Creative />} />
-          <Route path='/webPosition' element={<WebPosition />} />
+          <Route path='/networSocials' element={<NetworkSocials />} />
           <Route path='/webPosition' element={<WebPosition />} />
         </Routes>
         <Footer className='footer' />

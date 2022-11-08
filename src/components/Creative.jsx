@@ -3,6 +3,11 @@ import Contact from './Contact';
 import '../assets/styles/webPosition.css';
 import '../assets/styles/creative.css';
 import creativeImg from '../assets/images/SVG/creative.svg';
+import idea from '../assets/images/creative/ideas.png';
+import object from '../assets/images/creative/objetivos.png';
+import forms from '../assets/images/creative/formatos.png';
+import developing from '../assets/images/creative/desarrollo.png';
+import analitics from '../assets/images/creative/analisis.png';
 
 const Creative = () => {
   return (
@@ -27,52 +32,44 @@ const Creative = () => {
       </div>
       <div className='container-creative'>
         <div className='creative-description-card'>
-          {/* <img src={imgGoogleAds} alt='' /> */}
-          <h4>Google Ads</h4>
+          <img src={idea} alt='' />
+          <h4>Ideas</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
             doloribus
           </p>
         </div>
         <div className='creative-description-card'>
-          {/* <img src={imgYoutube} alt='' /> */}
+          <img src={object} alt='' />
 
-          <h4>Youtube</h4>
+          <h4>Objetivos</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
             doloribus
           </p>
         </div>
         <div className='creative-description-card'>
-          {/* <img src={imgGmail} alt='' /> */}
+          <img src={forms} alt='' />
 
-          <h4>Gmail</h4>
+          <h4>Formatos</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
             doloribus
           </p>
         </div>
         <div className='creative-description-card'>
-          {/* <img src={imgSeo} alt='' /> */}
+          <img src={developing} alt='' />
 
-          <h4>SEO</h4>
+          <h4>Desarrollo</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
             doloribus
           </p>
         </div>
         <div className='creative-description-card'>
-          {/* <img src={imgSocialAds} alt='' /> */}
+          <img src={analitics} alt='' />
 
-          <h4>Social ads</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
-            doloribus
-          </p>
-        </div>
-        <div className='creative-description-card'>
-          {/* <img src={imgRemarketing} alt='' /> */}
-          <h4>Remarketing</h4>
+          <h4>Analisis</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
             doloribus

@@ -42,7 +42,7 @@ const Nav = () => {
                 <Link to='/creative'>CONTENIDO CREATIVO</Link>
               </li>
               <li>
-                <Link to='/networking'>GESTION REDES SOCIALES</Link>
+                <Link to='/networSocials'>GESTION REDES SOCIALES</Link>
               </li>
               <li>
                 <Link to='/graphics'>DISEÑO</Link>
