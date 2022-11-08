@@ -13,6 +13,8 @@ import WebPosition from './components/WebPosition';
 import SocialAds from './components/SocialAds';
 import Creative from './components/Creative';
 import NetworkSocials from './components/NetworkSocials';
+import Graphics from './components/Graphics';
+import EmailMarketing from './components/EmailMarketing';
 
 function App() {
   return (
@@ -30,7 +32,8 @@ function App() {
           <Route path='/social' element={<SocialAds />} />
           <Route path='/creative' element={<Creative />} />
           <Route path='/networSocials' element={<NetworkSocials />} />
-          <Route path='/webPosition' element={<WebPosition />} />
+          <Route path='/graphics' element={<Graphics />} />
+          <Route path='/email' element={<EmailMarketing />} />
         </Routes>
         <Footer className='footer' />
       </HashRouter>

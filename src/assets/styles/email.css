@@ -4,39 +4,39 @@
   box-sizing: border-box;
 }
 
-.net-container-general {
+.email-container-general {
   background: linear-gradient(-10deg, white 70%, #52a7e0 80%);
   width: 100%;
   height: 110vh;
   padding: 0rem 1.5rem;
 }
-.wave.net,
-.wave2.net,
-.wave3.net {
+.wave.email,
+.wave2.email,
+.wave3.email {
   position: absolute;
-  top: 19rem;
+  top: 20rem;
 }
-.net-container-general h1 {
+.email-container-general h1 {
   font-size: 32px;
   font-family: Arvo;
-  margin-top: -12rem;
+  margin-top: -8rem;
   color: white;
   opacity: 99%;
 }
-.container-img-title-net.web {
+.container-img-title-email.web {
   opacity: 20%;
   z-index: -30;
 }
-.container-img-title-net.web img {
+.container-img-title-email.web img {
   margin-top: 1rem;
   border-radius: 0 0 35% 80%;
-  width: 200px;
+  width: 300px;
 }
-.net-container-general p {
+.email-container-general p {
   margin-top: 10rem;
   text-align: center;
 }
-.container-net {
+.container-email {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   place-items: center;
@@ -46,20 +46,20 @@
   padding: 0 2rem;
   text-align: center;
 }
-.net-description-card {
+.email-description-card {
   display: grid;
   place-items: center;
   margin-bottom: 2rem;
   width: 350px;
   height: 250px;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
 }
-.net-description-card:hover {
+.email-description-card:hover {
   box-shadow: 0px 5px 10px 2px rgba(128, 128, 128, 0.779);
   border-radius: 5px;
 }
 
-.net-description-card img {
+.email-description-card img {
   width: 100px;
 }
 .webPosition-description-card p {
@@ -68,11 +68,11 @@
 }
 
 @media (min-width: 1000px) {
-  .net-container-general {
+  .email-container-general {
     width: 100%;
     padding-top: 5rem;
   }
-  .container-net {
+  .container-email {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -82,44 +82,44 @@
     padding: 0 5rem;
   }
 
-  .net-container-general {
+  .email-container-general {
     background: linear-gradient(0deg, white 50%, #52a7e0 85%);
   }
 
-  .container-img-title-net.web {
+  .container-img-title-email.web {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .net-container-general h1 {
+  .email-container-general h1 {
     font-size: 50px;
     text-align: center;
   }
-  .net-container-general p {
+  .email-container-general p {
     margin-top: 10rem;
     text-align: center;
     padding: 0 20rem;
   }
-  .container-net {
+  .container-email {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     place-items: center;
     justify-content: center;
     align-items: center;
     padding: 0 15rem;
     text-align: center;
   }
-  .net-description-card {
+  .email-description-card {
     display: grid;
     place-items: center;
     margin-bottom: 5rem;
   }
 
-  .net-description-card img {
+  .email-description-card img {
     width: 100px;
   }
-  .net-description-card p {
+  .email-description-card p {
     margin-top: 1rem;
   }
 }
