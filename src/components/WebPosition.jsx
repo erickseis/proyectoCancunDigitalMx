@@ -7,6 +7,7 @@ import imgGmail from '../assets/images/Gmail_Icon.png';
 import imgSeo from '../assets/images/seo.png';
 import imgSocialAds from '../assets/images/social-ads-miniatura.png';
 import imgRemarketing from '../assets/images/remarketing.png';
+import Contact from './Contact';
 
 const WebPosition = () => {
   return (
@@ -40,6 +41,8 @@ const WebPosition = () => {
         </div>
         <div className='webPosition-description-card'>
           <img src={imgYoutube} alt='' />
+
+          <h4>Youtube</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
             doloribus
@@ -47,6 +50,8 @@ const WebPosition = () => {
         </div>
         <div className='webPosition-description-card'>
           <img src={imgGmail} alt='' />
+
+          <h4>Gmail</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
             doloribus
@@ -54,6 +59,8 @@ const WebPosition = () => {
         </div>
         <div className='webPosition-description-card'>
           <img src={imgSeo} alt='' />
+
+          <h4>SEO</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
             doloribus
@@ -61,6 +68,8 @@ const WebPosition = () => {
         </div>
         <div className='webPosition-description-card'>
           <img src={imgSocialAds} alt='' />
+
+          <h4>Social ads</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
             doloribus
@@ -68,12 +77,16 @@ const WebPosition = () => {
         </div>
         <div className='webPosition-description-card'>
           <img src={imgRemarketing} alt='' />
+          <h4>Remarketing</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
             doloribus
           </p>
         </div>
       </div>
+      <section>
+        <Contact />
+      </section>
     </>
   );
 };

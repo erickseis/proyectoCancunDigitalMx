@@ -39,7 +39,7 @@ const Nav = () => {
                 <Link to='/social'>SOCIAL ADS</Link>
               </li>
               <li>
-                <Link to='/webPosition'>CONTENIDO CREATIVO</Link>
+                <Link to='/creative'>CONTENIDO CREATIVO</Link>
               </li>
               <li>
                 <Link to='/networking'>GESTION REDES SOCIALES</Link>

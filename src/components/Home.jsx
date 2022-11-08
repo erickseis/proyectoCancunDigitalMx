@@ -444,13 +444,6 @@ const Home = () => {
         <Contact />
       </section>
       <BtnUpScroll />
-      {/* <div className='scroll-up-btn-container'>
-        <div className='scroll-up-btn show'>
-          <a href='#header'>
-            <i className='fa-solid fa-circle-up'></i>
-          </a>
-        </div>
-      </div> */}
     </>
   );
 };
