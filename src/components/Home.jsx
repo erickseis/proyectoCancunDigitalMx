@@ -8,6 +8,13 @@ import img from '../assets/images/logo.gif';
 import imgMexico from '../assets/images/Mapa-de-Mexico-cb5a2e9a.png';
 import Contact from './Contact';
 import BtnUpScroll from '../components/btnUpScroll';
+import mail from '../assets/images/SVG/mail.svg';
+import socialAds from '../assets/images/SVG/socialAds.svg';
+import webPosition from '../assets/images/SVG/webPosition1.svg';
+import creative from '../assets/images/SVG/creative.svg';
+import netSocials from '../assets/images/SVG/netSocials.svg';
+import graphics from '../assets/images/SVG/graphics.svg';
+
 const Home = () => {
   return (
     <>
@@ -62,19 +69,23 @@ const Home = () => {
             </div>
             <h1 id='aboutUs'>SOBRE NOSOTROS</h1>
             <br />
-            <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab
-              a, explicabo corrupti repudiandae atque consectetur reprehenderit
-              ad molestias nobis nisi dolorum voluptates enim aperiam animi quos
-              placeat adipisci perspiciatis!ç
+              Cancún Digital es una empresa de marketing digital enfocada a
+              optimizar la inversión de las campañas digitales. Contamos con un
+              equipo multidisciplinario preparado para el desarrollo de
+              contenidos, manejo de ideas creativas y siempre con el objetivo de
+              mejorar los resultados publicitarios.
+              <br />
+              Nos comprometemos a dar un servicio excelente a nuestros clientes
+              aportando soluciones relevantes e innovadoras para cada proyecto.
+              Nuestro equipo tiene una amplia experiencia en la construcción de
+              sitios web, gestión de redes sociales, optimización de motores de
+              búsqueda y creación de contenidos. Con más de 10 años de
+              experiencia en este campo, garantizamos que todos nuestros
+              servicios se llevan a cabo de manera eficiente, con alta calidad y
+              máxima satisfacción de nuestros clientes.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab
-              a, explicabo corrupti repudiandae atque consectetur reprehenderit
-              ad molestias nobis nisi dolorum voluptates enim aperiam animi quos
-              placeat adipisci perspiciatis!ç
-            </p>
+
             <br />
             <div className='flex'>
               <div>
@@ -89,10 +100,11 @@ const Home = () => {
             <br />
             <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab
-              a, explicabo corrupti repudiandae atque consectetur reprehenderit
-              ad molestias nobis nisi dolorum voluptates enim aperiam animi quos
-              placeat adipisci perspiciatis!ç
+              Estamos ubicados en:
+              <br />
+              <br />
+              Av. Bonampak, Manzana 1,Lote 4 y 5, Local SA 2, Super Manzana 8,
+              77504 Cancún, Q.R.
             </p>
             <img
               // style={{ width: '200px' }}
@@ -108,35 +120,56 @@ const Home = () => {
             <br />
             <br />
             <q>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab
-              a,
+              Estrategia e implementación de SEO: Asegurarse de que su sitio web
+              está optimizado para los motores de búsqueda, para ayudar a que su
+              sitio sea encontrado por las personas que necesitan sus productos
+              o servicios.
+              <br />
+              <br />
+              Publicidad digital: Creación de una estrategia publicitaria
+              adaptada a sus necesidades y objetivos, ya sea para dar a conocer
+              su marca o para vender sus productos. -
             </q>
           </div>
 
           <div className='container-card text-desing'>
             <div className='card text-desing'>
-              <img src='https://www.soul.com.uy/img/ser_perfo.png' alt='' />
+              <img src={mail} alt='' />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 voluptate at nobis perferendis reiciendis.
               </p>
             </div>
             <div className='card text-desing'>
-              <img src='https://www.soul.com.uy/img/ser_perfo.png' alt='' />
+              <img src={socialAds} alt='' />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 voluptate at nobis perferendis reiciendis.
               </p>
             </div>
             <div className='card text-desing'>
-              <img src='https://www.soul.com.uy/img/ser_perfo.png' alt='' />
+              <img src={webPosition} alt='' />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 voluptate at nobis perferendis reiciendis.
               </p>
             </div>
             <div className='card text-desing'>
-              <img src='https://www.soul.com.uy/img/ser_redes.png' alt='' />
+              <img src={creative} alt='' />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                voluptate at nobis perferendis reiciendis.
+              </p>
+            </div>
+            <div className='card text-desing'>
+              <img src={netSocials} alt='' />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                voluptate at nobis perferendis reiciendis.
+              </p>
+            </div>
+            <div className='card text-desing'>
+              <img src={graphics} alt='' />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 voluptate at nobis perferendis reiciendis.
@@ -247,10 +280,9 @@ const Home = () => {
               <img src={img} alt='' />
             </div>
             <q>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              odit pariatur cupiditate accusantium saepe magnam, ipsum cumque
-              sit delectus ad est similique porro, fugiat consequuntur eveniet
-              quasi dolores nisi earum.
+              Somos una empresa de marketing digital, llamada Cancún Digital con
+              experiencia en promoción y análisis de campañas publicitarias en
+              Internet.
             </q>
             <div className='btn-view-more-container cancun-section'>
               <button className='btn-view-more cards '>Ver Todos</button>

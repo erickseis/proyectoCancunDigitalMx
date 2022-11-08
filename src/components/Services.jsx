@@ -17,16 +17,20 @@ const Services = () => {
           <br />
           <br />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab a,
-            explicabo corrupti repudiandae atque consectetur reprehenderit ad
-            molestias nobis nisi dolorum voluptates enim aperiam animi quos
-            placeat adipisci perspiciatis!ç
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab a,
-            explicabo corrupti repudiandae atque consectetur reprehenderit ad
-            molestias nobis nisi dolorum voluptates enim aperiam animi quos
-            placeat adipisci perspiciatis!ç
+            <br />
+            <br />- Gestión de PPC - Realización de una investigación exhaustiva
+            de las palabras clave y creación de un texto publicitario eficaz,
+            para asegurarse de que sus anuncios se sitúan en los primeros
+            puestos y reciben los clics que merecen. <br />
+            - Estrategia e implementación de SEO - Asegurarse de que su sitio
+            web está optimizado para los motores de búsqueda, para ayudar a que
+            su sitio sea encontrado por las personas que necesitan sus productos
+            o servicios. <br />
+            - Publicidad digital - Creación de una estrategia publicitaria
+            adaptada a sus necesidades y objetivos, ya sea para dar a conocer su
+            marca o para vender sus productos.
+            <br />- Consultoría y Auditoría Analítica - Examinando sus actuales
+            estrategias de marketing digital y encontrando formas de mejorarlas.
           </p>
         </div>
       </div>

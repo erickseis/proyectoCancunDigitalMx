@@ -123,13 +123,14 @@ const Footer = () => {
               <h4>Encuentranos</h4>
               <ul className='list-data'>
                 <li>
-                  <i className='fa-regular fa-envelope'></i> email@
+                  <i className='fa-regular fa-envelope'></i>{' '}
+                  info@cancundigital.com.mx
                 </li>
                 <li>
                   <i className='fa-solid fa-phone'></i> numero telefono fijo
                 </li>
                 <li>
-                  <i className='fa-light fa-phone'></i> numero telefono celular
+                  <i class='fa-solid fa-mobile-screen'></i> +529983870579
                 </li>
               </ul>
             </div>

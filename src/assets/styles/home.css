@@ -106,6 +106,10 @@ h2 {
   align-items: center;
 }
 .office-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 10rem;
   text-align: center;
 }
@@ -424,7 +428,7 @@ h1 {
     text-align: center;
   }
   .office-us img {
-    width: 800px;
+    width: 600px;
   }
 
   .what-we-do {
@@ -438,7 +442,7 @@ h1 {
   }
   .container-card {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     transform: rotate(-10deg);
     position: relative;
