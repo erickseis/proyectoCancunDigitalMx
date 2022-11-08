@@ -39,22 +39,39 @@ const Services = () => {
           </h4>
         </div>
         <div className='card-services-child'>
-          <img className='img-social-ads' src={socialAds} alt='' />
+          <img
+            id='img-social-ads'
+            className='img-social-ads'
+            src={socialAds}
+            alt=''
+          />
           <h4>
             <Link>SOCIAL ADS</Link>
           </h4>
         </div>
         <div className='card-services-child'>
-          <img className='img-social-ads' src={creative} alt='' />
+          <img
+            id='img-graphic'
+            className='img-social-ads'
+            src={creative}
+            alt=''
+          />
           <h4>
             <Link>CONTENIDO CREATIVO</Link>
           </h4>
         </div>
         <div className='card-services-child'>
-          <img className='img-social-ads' src={netSocials} alt='' />
-          <h4>
-            <Link>GESTIÓN REDES SOCIALES</Link>
-          </h4>
+          <img
+            id='network-img'
+            className='img-social-ads'
+            src={netSocials}
+            alt=''
+          />
+          <div className='contain-social-network'>
+            <h4>
+              <Link>GESTIÓN REDES SOCIALES</Link>
+            </h4>
+          </div>
         </div>
         <div className='card-services-child'>
           <img className='img-social-ads' src={graphics} alt='' />
@@ -63,7 +80,7 @@ const Services = () => {
           </h4>
         </div>
         <div className='card-services-child'>
-          <img className='img-social-ads' src={mail} alt='' />
+          <img id='img-email' className='img-social-ads' src={mail} alt='' />
           <h4>
             <Link>EMAIL MARKETING</Link>
           </h4>

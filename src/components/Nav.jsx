@@ -33,13 +33,22 @@ const Nav = () => {
             </Link>
             <ul>
               <li>
-                <a href=''>Submenu1</a>
+                <Link to='/webPosition'>POSICIONAMIENTO WEB</Link>
               </li>
               <li>
-                <a href=''>Submenu2</a>
+                <Link to='/social'>SOCIAL ADS</Link>
               </li>
               <li>
-                <a href=''>Submenu3</a>
+                <Link to='/webPosition'>CONTENIDO CREATIVO</Link>
+              </li>
+              <li>
+                <Link to='/networking'>GESTION REDES SOCIALES</Link>
+              </li>
+              <li>
+                <Link to='/graphics'>DISEÑO</Link>
+              </li>
+              <li>
+                <Link to='/email'>EMAIL MARKETING</Link>
               </li>
             </ul>
           </li>

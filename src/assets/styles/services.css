@@ -6,7 +6,7 @@
 
 .contain-services {
   width: 100%;
-  padding: 6rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 .child-services {
   display: flex;
@@ -36,15 +36,28 @@
   text-align: center;
   gap: 2rem;
 }
-/* .card-services-child img {
-  width: 250px;
-} */
+
 .img-social-ads {
   width: 250px;
 }
+#network-img {
+  width: 170px;
+}
+#img-social-ads {
+  width: 240px;
+}
+#img-graphic {
+  margin-top: 2.5rem;
+  width: 280px;
+}
+#img-email {
+  margin-top: 2.5rem;
+  width: 270px;
+}
 .card-services-child {
   background: linear-gradient(-15deg, #09c3a1c4 60%, white 50%);
-  padding: 1rem 1rem;
+
+  padding-top: 0.5rem;
   width: 300px;
   height: 300px;
   border-radius: 5px;
@@ -59,5 +72,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: rem;
     padding: 0rem 12rem;
+  }
+
+  .contain-services {
+    padding: 6rem 0rem;
   }
 }

@@ -9,6 +9,7 @@ import Home from './components/Home';
 import Nav from './components/Nav';
 import Services from './components/Services';
 import Team from './components/Team';
+import WebPosition from './components/WebPosition';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/blog' element={<Blog />} />
           <Route path='/team' element={<Team />} />
           <Route path='/contactus' element={<Contact />} />
+          <Route path='/webPosition' element={<WebPosition />} />
         </Routes>
         <Footer className='footer' />
       </HashRouter>
