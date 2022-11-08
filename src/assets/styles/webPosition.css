@@ -6,7 +6,6 @@
 
 .WebPosition-container-general {
   background: linear-gradient(-10deg, white 70%, #52a7e0 80%);
-  /* background-color: #52a7e0; */
   width: 100%;
   height: 110vh;
   padding: 0rem 1.5rem;
@@ -36,9 +35,41 @@
   margin-top: 10rem;
   text-align: center;
 }
+.container-webPosition {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: -22rem;
+  padding: 0 2rem;
+  text-align: center;
+}
+.webPosition-description-card {
+  display: grid;
+  place-items: center;
+  margin-bottom: 2rem;
+}
+
+.webPosition-description-card img {
+  width: 100px;
+}
+.webPosition-description-card p {
+  margin-top: 1rem;
+}
+
 @media (min-width: 1000px) {
   .WebPosition-container-general {
     width: 100%;
     padding-top: 5rem;
+  }
+  .container-webPosition {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5rem;
   }
 }
