@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/styles/networkSocials.css';
 import Contact from './Contact';
-import imgNetSoc from '../assets/images/SVG/netSocials.svg';
+import imgNetSoc from '../assets/images/SVG/netSocials2.svg';
 import imgFace from '../assets/images/network social/icon_face.png';
 import imgIns from '../assets/images/network social/icon_insta.png';
 import imgLink from '../assets/images/network social/icon_linke.png';
