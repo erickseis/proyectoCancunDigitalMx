@@ -53,9 +53,13 @@ const Nav = () => {
             </ul>
           </li>
           <li>
-            <Link onClick={handleClick} className='navText' to='/blog'>
+            <a
+              // onClick={handleClick}
+              className='navText'
+              href='https://cancundigital.com.mx/blog/'
+            >
               BLOG
-            </Link>
+            </a>
           </li>
           <li>
             <Link onClick={handleClick} className='navText' to='/team'>

@@ -24,10 +24,8 @@ const WebPosition = () => {
         <br />
         <br />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ab
-          fugiat possimus reiciendis nisi animi hic ducimus? Expedita nulla
-          dolores tempora amet veniam ipsa magni odit recusandae cupiditate.
-          Non, laborum?
+          Posicionamos y potenciamos a tu marca frente a la competencia a través
+          de campañas de anuncios en Google, YouTube, Gmail y en Redes Sociales.
         </p>
       </div>
       <div className='container-webPosition'>

@@ -202,21 +202,29 @@ h1 {
 }
 
 .card {
+  position: relative;
   display: flex;
+  justify-content: top;
+  align-items: center;
   flex-direction: column;
   width: 300px;
-  height: 200px;
+  height: 250px;
   border: none;
   border-radius: 5px;
   margin-top: 1rem;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   box-shadow: 0px 5px 10px 5px rgba(202, 199, 199, 0.795);
 }
 .card:hover {
   box-shadow: 0px 5px 10px 5px #09c3a1b4;
 }
+
 .card img {
   width: 80px;
+  padding-bottom: 0 0.5rem;
+  bottom: 0;
+  position: absolute;
+  z-index: -200;
 }
 .card-container-succes-stories {
   width: 100%;
@@ -433,12 +441,9 @@ h1 {
 
   .what-we-do {
     margin-top: 10rem;
-    width: 600px;
+    width: 400px;
     text-align: center;
-    margin-left: 40rem;
-  }
-  .what-we-do h1 {
-    border-bottom: none;
+    margin-left: 50rem;
   }
   .container-card {
     display: grid;
@@ -446,7 +451,7 @@ h1 {
     gap: 2rem;
     transform: rotate(-10deg);
     position: relative;
-    left: -20rem;
+    left: -12rem;
     margin-top: -20rem;
   }
   .card {

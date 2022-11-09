@@ -136,43 +136,61 @@ const Home = () => {
             <div className='card text-desing'>
               <img src={mail} alt='' />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                voluptate at nobis perferendis reiciendis.
+                <h4>Email marketing</h4>
+                <br />
+                Empleando esta herramienta, podras comunicarte digitalmente con
+                leads y clientes a través del envío masivo de correos
+                electrónicos a una base de contactos.
               </p>
             </div>
             <div className='card text-desing'>
               <img src={socialAds} alt='' />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                voluptate at nobis perferendis reiciendis.
+                <h4>Social Ads</h4>
+                <br />
+                Planificamos y generamos campañas de anuncios para llegar a
+                través de una segmentación específica a tus potenciales
+                clientes.
               </p>
             </div>
             <div className='card text-desing'>
               <img src={webPosition} alt='' />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                voluptate at nobis perferendis reiciendis.
+                <h4>Posicionamiento</h4>
+                <br />
+                Posicionamos y potenciamos a tu marca frente a la competencia a
+                través de campañas de anuncios en Google, YouTube, Gmail y en
+                Redes Sociales.
               </p>
             </div>
             <div className='card text-desing'>
               <img src={creative} alt='' />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                voluptate at nobis perferendis reiciendis.
+                <h4>Contenido creativo</h4>
+                <br />
+                Potenciamos la imagen de tu marca a través del diseño,
+                reflejando una comunicación direccionada hacia tu audiencia y
+                alineada con los valores de tu empresa.
               </p>
             </div>
             <div className='card text-desing'>
               <img src={netSocials} alt='' />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                voluptate at nobis perferendis reiciendis.
+                <h4>Redes sociales</h4>
+                <br />
+                Creamos contenido útil para tus clientes actuales y potenciales,
+                además de interactuar con ellos con una mezcla perfecta de
+                esfuerzo, diseño y generar contenidos. asi como experiencia.
               </p>
             </div>
             <div className='card text-desing'>
               <img src={graphics} alt='' />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                voluptate at nobis perferendis reiciendis.
+                <h4>Diseño</h4>
+                <br />
+                Potenciamos la imagen de tu marca a través del diseño,
+                reflejando una comunicación direccionada hacia tu audiencia y
+                alineada con los valores de tu empresa.
               </p>
             </div>
           </div>
