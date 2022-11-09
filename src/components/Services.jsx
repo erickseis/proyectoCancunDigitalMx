@@ -5,7 +5,7 @@ import mail from '../assets/images/SVG/mail.svg';
 import socialAds from '../assets/images/SVG/socialAds.svg';
 import webPosition from '../assets/images/SVG/webPosition1.svg';
 import creative from '../assets/images/SVG/creative.svg';
-import netSocials from '../assets/images/SVG/netSocials.svg';
+import netSocials from '../assets/images/SVG/netSocials2.svg';
 import graphics from '../assets/images/SVG/graphics.svg';
 
 const Services = () => {
