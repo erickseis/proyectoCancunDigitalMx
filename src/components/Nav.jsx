@@ -52,7 +52,7 @@ const Nav = () => {
               </li>
             </ul>
           </li>
-          <li>
+          {/* <li>
             <a
               // onClick={handleClick}
               className='navText'
@@ -60,7 +60,7 @@ const Nav = () => {
             >
               BLOG
             </a>
-          </li>
+          </li> */}
           <li>
             <Link onClick={handleClick} className='navText' to='/team'>
               EQUIPO
