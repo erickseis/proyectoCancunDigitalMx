@@ -130,7 +130,7 @@ const Footer = () => {
                   <i className='fa-solid fa-phone'></i> numero telefono fijo
                 </li>
                 <li>
-                  <i class='fa-solid fa-mobile-screen'></i> +529983870579
+                  <i className='fa-solid fa-mobile-screen'></i> +529983870579
                 </li>
               </ul>
             </div>

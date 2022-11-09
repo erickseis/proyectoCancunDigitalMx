@@ -16,7 +16,7 @@ const Nav = () => {
       </div>
 
       <div className={`navbarList ${clicked ? 'active' : ''} `}>
-        <ul class='nav'>
+        <ul className='nav'>
           <li>
             <Link onClick={handleClick} className='navText' to='/'>
               INICIO
