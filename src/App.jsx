@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './assets/styles/App.css';
 import About from './components/About';
 import Contact from './components/Contactus';
@@ -18,23 +18,29 @@ import EmailMarketing from './components/EmailMarketing';
 function App() {
   return (
     <div className='App'>
-      <HashRouter>
+      <BrowserRouter>
         <Nav />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/services' element={<Services />} />
-          <Route path='/team' element={<Team />} />
-          <Route path='/contactus' element={<Contact />} />
-          <Route path='/webPosition' element={<WebPosition />} />
-          <Route path='/social' element={<SocialAds />} />
-          <Route path='/creative' element={<Creative />} />
-          <Route path='/networSocials' element={<NetworkSocials />} />
-          <Route path='/graphics' element={<Graphics />} />
-          <Route path='/email' element={<EmailMarketing />} />
+          <Route path='/nosotros' element={<About />} />
+          <Route path='/soluciones' element={<Services />} />
+          <Route path='/equipo' element={<Team />} />
+          <Route path='/contacto' element={<Contact />} />
+          <Route
+            path='/soluciones/posicionamiento-web'
+            element={<WebPosition />}
+          />
+          <Route path='/soluciones/social-ADS' element={<SocialAds />} />
+          <Route path='/soluciones/contenido-creativo' element={<Creative />} />
+          <Route
+            path='/soluciones/gestion-redes-sociales'
+            element={<NetworkSocials />}
+          />
+          <Route path='/soluciones/diseño' element={<Graphics />} />
+          <Route path='/soluciones/correo' element={<EmailMarketing />} />
         </Routes>
         <Footer className='footer' />
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }

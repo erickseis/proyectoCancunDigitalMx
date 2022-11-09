@@ -44,12 +44,12 @@ const Home = () => {
         </div>
         <div className='service-about'>
           <button className='btn btn-service'>
-            <Link to='/services'>
+            <Link to='/soluciones'>
               <strong>Servicios</strong>
             </Link>
           </button>
           <button className='btn btn-about'>
-            <Link to='/about'>
+            <Link to='/nosotros'>
               <strong>Nosotros </strong>
             </Link>
           </button>

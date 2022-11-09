@@ -23,32 +23,38 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link onClick={handleClick} className='navText' to='/about'>
+            <Link onClick={handleClick} className='navText' to='/nosotros'>
               NOSOTROS
             </Link>
           </li>
           <li>
-            <Link onClick={handleClick} className='navText' to='/services'>
+            <Link onClick={handleClick} className='navText' to='/soluciones'>
               SOLUCIONES
             </Link>
             <ul>
               <li>
-                <Link to='/webPosition'>POSICIONAMIENTO WEB</Link>
+                <Link to='/soluciones/posicionamiento-web'>
+                  POSICIONAMIENTO WEB
+                </Link>
               </li>
               <li>
-                <Link to='/social'>SOCIAL ADS</Link>
+                <Link to='/soluciones/social-ADS'>SOCIAL ADS</Link>
               </li>
               <li>
-                <Link to='/creative'>CONTENIDO CREATIVO</Link>
+                <Link to='/soluciones/contenido-creativo'>
+                  CONTENIDO CREATIVO
+                </Link>
               </li>
               <li>
-                <Link to='/networSocials'>GESTION REDES SOCIALES</Link>
+                <Link to='/soluciones/gestion-redes-sociales'>
+                  GESTION REDES SOCIALES
+                </Link>
               </li>
               <li>
-                <Link to='/graphics'>DISEÑO</Link>
+                <Link to='/soluciones/diseño'>DISEÑO</Link>
               </li>
               <li>
-                <Link to='/email'>EMAIL MARKETING</Link>
+                <Link to='/soluciones/correo'>EMAIL MARKETING</Link>
               </li>
             </ul>
           </li>
@@ -62,12 +68,12 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <Link onClick={handleClick} className='navText' to='/team'>
+            <Link onClick={handleClick} className='navText' to='/equipo'>
               EQUIPO
             </Link>
           </li>
           <li>
-            <Link onClick={handleClick} className='navText' to='/contactus'>
+            <Link onClick={handleClick} className='navText' to='/contacto'>
               CONTACTO
             </Link>
           </li>
