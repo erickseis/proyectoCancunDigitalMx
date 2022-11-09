@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/styles/home.css';
+/* IMAGES */
 import img3 from '../assets/images/4595021.png';
 import img2 from '../assets/images/disenadores-web-barcelona.gif';
 import img1 from '../assets/images/40-Usos-del-Celular-en-el-Aula-300x185.png';
@@ -14,6 +15,12 @@ import webPosition from '../assets/images/SVG/webPosition1.svg';
 import creative from '../assets/images/SVG/creative.svg';
 import netSocials from '../assets/images/SVG/netSocials.svg';
 import graphics from '../assets/images/SVG/graphics.svg';
+import consulta from '../assets/images/posibilities/consulta.jpg';
+import tuMarca from '../assets/images/posibilities/tumarca.jpg';
+import creativity from '../assets/images/posibilities/creativity.jpg';
+import idea from '../assets/images/posibilities/idea.jpg';
+import news from '../assets/images/news.png';
+import Fig from '../assets/images/siluetaNews.png';
 
 const Home = () => {
   return (
@@ -192,7 +199,7 @@ const Home = () => {
           <br />
         </article>
         0{' '}
-        <article className='text-desing success-stories-container'>
+        {/* <article className='text-desing success-stories-container'>
           <h1 id='aboutUs'>CASOS DE ÉXITO </h1>
           <br />
           <br />
@@ -284,6 +291,25 @@ const Home = () => {
           </div>
           <div className='btn-view-more-container'>
             <button className='btn-view-more cards '>Ver Todos</button>
+          </div>
+        </article> */}
+        <article>
+          <div className='text-desing sol'>
+            <h1>TU SOLUCION AQUI</h1>
+          </div>
+          <div className='card-container-posibility'>
+            <div className='card-posibility'>
+              <img src={consulta} alt='' />
+            </div>
+            <div className='card-posibility'>
+              <img src={creativity} alt='' />
+            </div>
+            <div className='card-posibility'>
+              <img src={idea} alt='' />
+            </div>
+            <div className='card-posibility'>
+              <img src={tuMarca} alt='' />
+            </div>
           </div>
         </article>
         <article>
@@ -388,24 +414,18 @@ const Home = () => {
           <div className='ultimate-news-container'>
             <div className='ultimate-news'>
               <div className='img-contain news1'>
-                <img
-                  src='https://www.soul.com.uy/public/7c9a05ec82.jpg'
-                  alt=''
-                />
+                <img src={news} alt='' />
               </div>
               <h4>
                 <a href=''>GOOGLE ANALYTICS</a>{' '}
               </h4>
-              <h1>¿Estrategias efectivas?: Data driven creativity</h1>
+              <h1>¿Lorem ipsum dolor sit amet consectetur,?</h1>
               <div className='font-info'>
                 <div className='font-img'>
-                  <img
-                    src='https://www.soul.com.uy/public/2ef9cffab5.jpeg'
-                    alt=''
-                  />
+                  <img src={Fig} alt='' />
                 </div>
                 <p>
-                  <strong>Jose Delgado</strong>
+                  <strong>lorem impusn</strong>
                   <br />
                   2022-09-22
                 </p>
@@ -416,63 +436,51 @@ const Home = () => {
           <div className='card-news-container'>
             <div className='card-news'>
               <div className='img-contain news'>
-                <img
-                  src='https://www.soul.com.uy/public/404d69b268.jpg'
-                  alt=''
-                />
+                <img src={news} alt='' />
               </div>
               <h4>
                 <a href=''>GOOGLE ANALYTICS</a>{' '}
               </h4>
               <br />
-              <h3>¿Por qué es importante utilizarla?</h3>
+              <h3>¿¿Lorem ipsum dolor sit amet consectetur,??</h3>
               <br />
-              <h5>Pablo tarsui</h5>
+              <h5>ipsum lorem</h5>
             </div>
             <div className='card-news'>
               <div className='img-contain news'>
-                <img
-                  src='https://www.soul.com.uy/public/404d69b268.jpg'
-                  alt=''
-                />
+                <img src={news} alt='' />
               </div>
               <h4>
                 <a href=''>GOOGLE ANALYTICS</a>{' '}
               </h4>
               <br />
-              <h3>¿Por qué es importante utilizarla?</h3>
+              <h3>¿¿Lorem ipsum dolor sit amet consectetur,??</h3>
               <br />
-              <h5>Pablo tarsui</h5>
+              <h5>Impsum Lorem</h5>
             </div>
             <div className='card-news'>
               <div className='img-contain news'>
-                <img
-                  src='https://www.soul.com.uy/public/404d69b268.jpg'
-                  alt=''
-                />
+                <img src={news} alt='' />
               </div>
               <h4>
                 <a href=''>GOOGLE ANALYTICS</a>{' '}
               </h4>
               <br />
-              <h3>¿Por qué es importante utilizarla?</h3>
+              <h3>¿¿Lorem ipsum dolor sit amet consectetur,??</h3>
               <br />
-              <h5>Pablo tarsui</h5>
+              <h5>Lorem ipsum</h5>
             </div>
             <div className='card-news'>
               <div className='img-contain news'>
-                <img
-                  src='https://www.soul.com.uy/public/404d69b268.jpg'
-                  alt=''
-                />
+                <img src={news} alt='' />
               </div>
               <h4>
                 <a href=''>GOOGLE ANALYTICS</a>{' '}
               </h4>
               <br />
-              <h3>¿Por qué es importante utilizarla?</h3>
+              <h3>¿Lorem ipsumLorem ipsumLorem ipsum?</h3>
               <br />
-              <h5>Pablo tarsui</h5>
+              <h5>Lorem ipsum</h5>
             </div>
           </div>
 

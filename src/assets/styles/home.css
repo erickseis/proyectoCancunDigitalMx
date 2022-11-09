@@ -343,6 +343,23 @@ h1 {
   width: 100%;
 }
 
+.card-container-posibility {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 2rem 0;
+}
+.card-posibility img {
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+}
+.card-posibility img:hover {
+  transform: scale(1.2);
+}
+
 @media (min-width: 1000px) {
   .container-general {
     height: 90vh;
@@ -610,5 +627,31 @@ h1 {
   }
   .text-desing.client-us div h1 {
     width: 400px;
+  }
+
+  .card-container-posibility {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 2rem 15rem;
+  }
+  .text-desing.sol {
+    display: grid;
+    place-items: center;
+  }
+  .text-desing.sol h1 {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    width: 350px;
+  }
+  .card-posibility img {
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+  }
+  .card-posibility img:hover {
+    transform: scale(1.2);
   }
 }
