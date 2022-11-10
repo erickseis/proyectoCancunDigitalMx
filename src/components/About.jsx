@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { Helmet } from 'react-helmet';
 import '../assets/styles/aboutUs.css';
 import Contact from './Contact';
 const About = () => {
   return (
-    <>
+    <Fragment>
+      <Helmet>
+        <title>Nosotros - Cancún Digital</title>
+        <meta
+          name='desciption'
+          content='Contamos con un
+          equipo multidisciplinario preparado para el desarrollo de
+          contenidos, manejo de ideas creativas y siempre con el objetivo de
+          mejorar los resultados publicitarios.'
+        />
+      </Helmet>
+
       <div className='contain-aboutUs'>
         <div className='child-aboutus general'>
           <h1>SOBRE NOSOTROS</h1>
@@ -71,7 +83,7 @@ const About = () => {
         </div>
       </div>
       <Contact />
-    </>
+    </Fragment>
   );
 };
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import '../assets/styles/webPosition.css';
 import imgSocialAds from '../assets/images/SVG/socialAds.svg';
 import Contact from './Contact';
@@ -7,9 +7,17 @@ import graphics from '../assets/images/social-ads/icon_diseno.png';
 import segmentation from '../assets/images/social-ads/icon_segmentacionj.png';
 import social from '../assets/images/social-ads/icon_social.png';
 import analitics from '../assets/images/social-ads/icon_analitics.png';
+import { Helmet } from 'react-helmet';
 const SocialAds = () => {
   return (
-    <>
+    <Fragment>
+      <Helmet>
+        <title>Social Ads</title>
+        <meta
+          name='desciption'
+          content='Planificamos y generamos campañas de anuncios para llegar a través de una segmentación específica a tus potenciales clientes.'
+        />
+      </Helmet>
       <div className='WebPosition-container-general'>
         <div className='container-img-title web'>
           <img src={imgSocialAds} alt='' />
@@ -77,7 +85,7 @@ const SocialAds = () => {
       <section>
         <Contact />
       </section>
-    </>
+    </Fragment>
   );
 };
 

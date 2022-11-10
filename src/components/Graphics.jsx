@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Contact from './Contact';
 import '../assets/styles/graphics.css';
 import imgGraphics from '../assets/images/SVG/graphics.svg';
 import imgIdent from '../assets/images/graphics/identidad.png';
 import imgBaner from '../assets/images/graphics/tecnologia-banner.png';
 import imgWeb from '../assets/images/graphics/diseñoweb.png';
+import { Helmet } from 'react-helmet';
 
 const Graphics = () => {
   return (
-    <>
+    <Fragment>
+      <Helmet>
+        <title>Diseño</title>
+        <meta
+          name='desciption'
+          content='Generamos contenido grafico para mejorar el alcanse de tus posibilidades en el mercado.'
+        />
+      </Helmet>
       <div className='graphics-container-general'>
         <div className='container-img-title-graphics web'>
           <img src={imgGraphics} alt='' />
@@ -58,7 +66,7 @@ const Graphics = () => {
       <section>
         <Contact />
       </section>
-    </>
+    </Fragment>
   );
 };
 

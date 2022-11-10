@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Contact from './Contact';
 import '../assets/styles/webPosition.css';
 import '../assets/styles/creative.css';
@@ -8,10 +8,18 @@ import object from '../assets/images/creative/objetivos.png';
 import forms from '../assets/images/creative/formatos.png';
 import developing from '../assets/images/creative/desarrollo.png';
 import analitics from '../assets/images/creative/analisis.png';
+import { Helmet } from 'react-helmet';
 
 const Creative = () => {
   return (
-    <>
+    <Fragment>
+      <Helmet>
+        <title>Contenido Creativo</title>
+        <meta
+          name='desciption'
+          content='Generamos contenido creativo para tu empresa.'
+        />
+      </Helmet>
       <div className='creative-container-general'>
         <div className='container-img-title-creative web'>
           <img src={creativeImg} alt='' />
@@ -79,7 +87,7 @@ const Creative = () => {
       <section>
         <Contact />
       </section>
-    </>
+    </Fragment>
   );
 };
 

@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Contact from './Contact';
 import '../assets/styles/team.css';
+import { Helmet } from 'react-helmet';
 
 const Team = () => {
   return (
-    <>
+    <Fragment>
+      <Helmet>
+        <title>Nuestro Equipo</title>
+        <meta
+          name='desciption'
+          content='Nuestro equipo esta capacitado para manejar los diversos retos y poder colaborar entre los mismos.'
+        />
+      </Helmet>
       <div className='contain-team'>
         <div className='child-team general'>
           <br />
@@ -83,7 +91,7 @@ const Team = () => {
       </div>
 
       <Contact />
-    </>
+    </Fragment>
   );
 };
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Contact from './Contact';
 import '../assets/styles/email.css';
 import imgEmail from '../assets/images/SVG/mail.svg';
@@ -7,10 +7,18 @@ import imgGraphic from '../assets/images/email/diseñoweb.png';
 import imgObj from '../assets/images/email/objetivos.png';
 import imgSeg from '../assets/images/email/icon_segmentacionj.png';
 import imgAnal from '../assets/images/email/analisis.png';
+import { Helmet } from 'react-helmet';
 
 const EmailMarketing = () => {
   return (
-    <>
+    <Fragment>
+      <Helmet>
+        <title>Email Marketign</title>
+        <meta
+          name='desciption'
+          content='Empleando esta herramienta, podras comunicarte digitalmente con leads y clientes a través del envío masivo de correos electrónicos a una base de contactos.'
+        />
+      </Helmet>
       <div className='email-container-general'>
         <div className='container-img-title-email web'>
           <img src={imgEmail} alt='' />
@@ -78,7 +86,7 @@ const EmailMarketing = () => {
       <section>
         <Contact />
       </section>
-    </>
+    </Fragment>
   );
 };
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import '../assets/styles/webPosition.css';
 import imgWeb from '../assets/images/SVG/webPosition1.svg';
 import imgGoogleAds from '../assets/images/Google_Ads_logo.svg.png';
@@ -8,10 +8,18 @@ import imgSeo from '../assets/images/seo.png';
 import imgSocialAds from '../assets/images/social-ads-miniatura.png';
 import imgRemarketing from '../assets/images/remarketing.png';
 import Contact from './Contact';
+import { Helmet } from 'react-helmet';
 
 const WebPosition = () => {
   return (
-    <>
+    <Fragment>
+      <Helmet>
+        <title>Posicionamiento</title>
+        <meta
+          name='desciption'
+          content='Posicionamos y potenciamos a tu marca frente a la competencia a través de campañas de anuncios en Google, YouTube, Gmail y en Redes Sociales.'
+        />
+      </Helmet>
       <div className='WebPosition-container-general'>
         <div className='container-img-title web'>
           <img src={imgWeb} alt='' />
@@ -85,7 +93,7 @@ const WebPosition = () => {
       <section>
         <Contact />
       </section>
-    </>
+    </Fragment>
   );
 };
 

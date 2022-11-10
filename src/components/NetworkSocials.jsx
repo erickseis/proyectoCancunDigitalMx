@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import '../assets/styles/networkSocials.css';
 import Contact from './Contact';
 import imgNetSoc from '../assets/images/SVG/netSocials2.svg';
@@ -6,10 +6,18 @@ import imgFace from '../assets/images/network social/icon_face.png';
 import imgIns from '../assets/images/network social/icon_insta.png';
 import imgLink from '../assets/images/network social/icon_linke.png';
 import imgTwit from '../assets/images/network social/icon_twit.png';
+import { Helmet } from 'react-helmet';
 
 const NetworkSocials = () => {
   return (
-    <>
+    <Fragment>
+      <Helmet>
+        <title>Redes sociales</title>
+        <meta
+          name='desciption'
+          content='Creamos contenido útil para tus clientes actuales y potenciales, además de interactuar con ellos con una mezcla perfecta de esfuerzo, diseño y generar contenidos. asi como experiencia.'
+        />
+      </Helmet>
       <div className='net-container-general'>
         <div className='container-img-title-net web'>
           <img src={imgNetSoc} alt='' />
@@ -68,7 +76,7 @@ const NetworkSocials = () => {
       <section>
         <Contact />
       </section>
-    </>
+    </Fragment>
   );
 };
 

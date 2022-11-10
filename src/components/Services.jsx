@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import '../assets/styles/services.css';
 import { Link } from 'react-router-dom';
 import mail from '../assets/images/SVG/mail.svg';
@@ -7,13 +7,21 @@ import webPosition from '../assets/images/SVG/webPosition1.svg';
 import creative from '../assets/images/SVG/creative.svg';
 import netSocials from '../assets/images/SVG/netSocials2.svg';
 import graphics from '../assets/images/SVG/graphics.svg';
+import { Helmet } from 'react-helmet';
 
 const Services = () => {
   return (
-    <>
+    <Fragment>
+      <Helmet>
+        <title>Soluciones</title>
+        <meta
+          name='desciption'
+          content='Realización de una investigación exhaustiva de las palabras clave y creación de un texto publicitario eficaz, para asegurarse de que sus anuncios se sitúan en los primeros puestos y reciben los clics que merecen.'
+        />
+      </Helmet>
       <div className='contain-services'>
         <div className='child-services general'>
-          <h1>NUESTROS SERVICIOS</h1>
+          <h1>SOLUCIONES</h1>
           <br />
           <br />
           <p>
@@ -90,7 +98,7 @@ const Services = () => {
           </h4>
         </div>
       </div>
-    </>
+    </Fragment>
   );
 };
 

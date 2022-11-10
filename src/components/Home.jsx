@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import '../assets/styles/home.css';
 /* IMAGES */
 import img3 from '../assets/images/4595021.png';
@@ -24,7 +25,15 @@ import Fig from '../assets/images/siluetaNews.png';
 
 const Home = () => {
   return (
-    <>
+    <Fragment>
+      <Helmet>
+        <title>Home - Cancún Digital</title>
+        <meta
+          name='desciption'
+          content='Cancún Digital es una empresa de marketing digital enfocada a
+              optimizar la inversión de las campañas digitales.'
+        />
+      </Helmet>
       <div className='container-general'>
         <div className='containerBackgroundImage'>
           <img className='backgroundImage' src={img2} alt='' />
@@ -497,7 +506,7 @@ const Home = () => {
         <Contact />
       </section>
       <BtnUpScroll />
-    </>
+    </Fragment>
   );
 };
 
